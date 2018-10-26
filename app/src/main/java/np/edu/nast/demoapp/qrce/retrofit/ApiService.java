@@ -20,5 +20,9 @@ public class ApiService {
     public interface RetrofitInterface {
         @GET("qrce/java.php")
         public Call<List<QuestionModel>> getAllJavaQuestions();
-        }
-}
+
+
+        @GET("qrce/os.php")
+        public Call<List<QuestionModel>> getAllOSQuestions();
+
+    }}

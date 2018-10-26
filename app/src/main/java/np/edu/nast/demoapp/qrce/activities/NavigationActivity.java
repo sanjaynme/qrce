@@ -22,10 +22,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 import np.edu.nast.demoapp.qrce.R;
@@ -103,7 +100,8 @@ public class NavigationActivity extends AppCompatActivity
         c10 = findViewById(R.id.b10);
 
 //        setDataOffline();
-        setDataOnline();
+        setJavaDataOnline();
+        setOsDataOnline();
 
         oS.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -437,12 +435,45 @@ public class NavigationActivity extends AppCompatActivity
 
     }
 
-    private void setDataOnline() {
+    private void setOsDataOnline() {
+        ApiService.getServiceClass().getAllOSQuestions().enqueue(new Callback<List<QuestionModel>>() {
+            @Override
+            public void onResponse(Call<List<QuestionModel>> call, Response<List<QuestionModel>> response) {
+                if (response.isSuccessful()) {
+                    setOsQuestionsTable(response);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<QuestionModel>> call, Throwable t) {
+                Log.d("", "Error msg is :::" + t.getMessage());
+            }
+        });
+    }
+
+    private void setOsQuestionsTable(Response<List<QuestionModel>> response) {
+        osDataSource.open();
+        QuestionModel question = new QuestionModel();
+        for (int i = 0; i < response.body().size(); i++) {
+            String id = response.body().get(i).getId();
+            question.setId(id);
+            question.setAnswer(response.body().get(i).getAnswer());
+            question.setOptionA(response.body().get(i).getOptionA());
+            question.setOptionB(response.body().get(i).getOptionB());
+            question.setOptionC(response.body().get(i).getOptionC());
+            question.setOptionD(response.body().get(i).getOptionD());
+            question.setQuestion(response.body().get(i).getQuestion());
+            osDataSource.insertOrUpdateGkQuestion(question);
+        }
+        osDataSource.close();
+    }
+
+    private void setJavaDataOnline() {
         ApiService.getServiceClass().getAllJavaQuestions().enqueue(new Callback<List<QuestionModel>>() {
             @Override
             public void onResponse(Call<List<QuestionModel>> call, Response<List<QuestionModel>> response) {
                 if (response.isSuccessful()) {
-                    setQuestionsTable(response);
+                    setJavaQuestionsTable(response);
                 }
             }
 
@@ -454,85 +485,7 @@ public class NavigationActivity extends AppCompatActivity
 
     }
 
-    private void setDataOffline() {
-        List<QuestionModel> javaQuestionModel, oSQuestionModel;
-        gson = new Gson();
-        javaQuestionModel = gson.fromJson(loadJavaJsonData(), new TypeToken<List<QuestionModel>>() {
-        }.getType());
-        oSQuestionModel = gson.fromJson(loadOSJsonData(), new TypeToken<List<QuestionModel>>() {
-        }.getType());
-
-        saveJavaQuestions(javaQuestionModel);
-        saveOSQuestions(oSQuestionModel);
-    }
-
-    private void saveOSQuestions(List<QuestionModel> questionModel) {
-        osDataSource.open();
-        QuestionModel question = new QuestionModel();
-        for (int i = 0; i < questionModel.size(); i++) {
-            String id = questionModel.get(i).getId();
-            question.setId(id);
-            question.setAnswer(questionModel.get(i).getAnswer());
-            question.setOptionA(questionModel.get(i).getOptionA());
-            question.setOptionB(questionModel.get(i).getOptionB());
-            question.setOptionC(questionModel.get(i).getOptionC());
-            question.setOptionD(questionModel.get(i).getOptionD());
-            question.setQuestion(questionModel.get(i).getQuestion());
-            osDataSource.insertOrUpdateGkQuestion(question);
-        }
-        osDataSource.close();
-    }
-
-    private void saveJavaQuestions(List<QuestionModel> questionModel) {
-        javaDataSource.open();
-        QuestionModel question = new QuestionModel();
-        for (int i = 0; i < questionModel.size(); i++) {
-            String id = questionModel.get(i).getId();
-            question.setId(id);
-            question.setAnswer(questionModel.get(i).getAnswer());
-            question.setOptionA(questionModel.get(i).getOptionA());
-            question.setOptionB(questionModel.get(i).getOptionB());
-            question.setOptionC(questionModel.get(i).getOptionC());
-            question.setOptionD(questionModel.get(i).getOptionD());
-            question.setQuestion(questionModel.get(i).getQuestion());
-            javaDataSource.insertOrUpdateGkQuestion(question);
-        }
-        javaDataSource.close();
-    }
-
-    public String loadJavaJsonData() {
-        String json = null;
-        try {
-            InputStream is = getAssets().open("java.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-        }
-        return json;
-    }
-
-    public String loadOSJsonData() {
-        String json = null;
-        try {
-            InputStream is = getAssets().open("os.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-        }
-        return json;
-    }
-
-    private void setQuestionsTable(Response<List<QuestionModel>> response) {
+    private void setJavaQuestionsTable(Response<List<QuestionModel>> response) {
         javaDataSource.open();
         QuestionModel question = new QuestionModel();
         for (int i = 0; i < response.body().size(); i++) {
