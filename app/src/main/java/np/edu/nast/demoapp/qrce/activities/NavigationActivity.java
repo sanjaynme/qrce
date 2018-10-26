@@ -14,6 +14,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,9 @@ import np.edu.nast.demoapp.qrce.db.dataSource.AIDataSource;
 import np.edu.nast.demoapp.qrce.db.dataSource.JavaDataSource;
 import np.edu.nast.demoapp.qrce.db.dataSource.OSDataSource;
 import np.edu.nast.demoapp.qrce.model.QuestionModel;
+import np.edu.nast.demoapp.qrce.retrofit.ApiService;
+import retrofit2.Call;
+import retrofit2.Callback;
 import retrofit2.Response;
 
 public class NavigationActivity extends AppCompatActivity
@@ -98,7 +102,7 @@ public class NavigationActivity extends AppCompatActivity
         c9 = findViewById(R.id.b9);
         c10 = findViewById(R.id.b10);
 
-        setDataOffline();
+//        setDataOffline();
         setDataOnline();
 
         oS.setOnClickListener(new View.OnClickListener() {
@@ -434,20 +438,20 @@ public class NavigationActivity extends AppCompatActivity
     }
 
     private void setDataOnline() {
-    /*   ApiService.getServiceClass().getAllJavaQuestions().enqueue(new Callback<List<QuestionModel>>() {
-           @Override
-           public void onResponse(Call<List<QuestionModel>> call, Response<List<QuestionModel>> response) {
-               if (response.isSuccessful()) {
-                   setQuestionsTable(response);
-               }
-           }
+        ApiService.getServiceClass().getAllJavaQuestions().enqueue(new Callback<List<QuestionModel>>() {
+            @Override
+            public void onResponse(Call<List<QuestionModel>> call, Response<List<QuestionModel>> response) {
+                if (response.isSuccessful()) {
+                    setQuestionsTable(response);
+                }
+            }
 
-           @Override
-           public void onFailure(Call<List<QuestionModel>> call, Throwable t) {
-               Log.d("", "Error msg is :::" + t.getMessage());
-           }
-       });
-*/
+            @Override
+            public void onFailure(Call<List<QuestionModel>> call, Throwable t) {
+                Log.d("", "Error msg is :::" + t.getMessage());
+            }
+        });
+
     }
 
     private void setDataOffline() {
