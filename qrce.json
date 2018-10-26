@@ -1,0 +1,1882 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'qrce'
+// qrce.artificial intelligence
+
+[{"Id": 1,"Question": "Q.The performance of an agent can be improved by
+","OptionA": "A. Learning
+","OptionB": "B. Observing
+","OptionC": "C. Perceiving
+","OptionD": "D. None of the mentioned
+","Answer": "Answer:A
+Explanation: An agent can improve by saving the previous states on which it was earlier, hence in future it can learn to respond in the same situation better."}, {"Id": 2,"Question": "Q.External actions of the agent is selected by
+","OptionA": "A. Perceive
+
+","OptionB": "B. Performance
+","OptionC": "C. Learning
+","OptionD": "D. Actuator
+","Answer": "Answer: B
+Explanation: Depends on how you want to improve and what the performance measures are."}, {"Id": 3,"Question": "Q.The action of the Simple reflex agent completely depends upon
+","OptionA": "A. Perception history
+","OptionB": "B. Current perception
+","OptionC": "C. Learning theory
+","OptionD": "D. Utility functions
+","Answer": "Answer: B
+Explanation: These agents select actions based on the current perception, ignoring the rest of the perception history.
+"}, {"Id": 4,"Question": "Q.Following could be the approaches to Artificial Intelligence
+","OptionA": "A. Strong Artificial Intelligence
+","OptionB": "B. Weak Artificial Intelligence
+
+","OptionC": "C. Applied Artificial Intelligence
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: D
+Explanation: Strong Artificial Intelligence aims to build machines that can truly reason and solve problems.
+Weak Artificial Intelligence deals with the creation of some form of computer-based artificial intelligence that cannot truly reason and solve problems, but can act as if it were intelligent.
+Applied Artificial Intelligence aims to produce commercially viable “smart” systems.
+In Cognitive Artificial Intelligence approach, a computer is used to test theories about how the human mind works."}, {"Id": 5,"Question": "Q.An Artificial Neural Network Is based on
+","OptionA": "A. Strong Artificial Intelligence approach
+","OptionB": "B. Weak Artificial Intelligence approach
+","OptionC": "C. Cognitive Artificial Intelligence approach
+","OptionD": "D. Applied Artificial Intelligence approach
+","Answer": "Answer: C
+Explanation: In Cognitive Artificial Intelligence approach, a computer is used to test theories about how the human mind works–for example, theories about how we recognize faces and other objects, or about how we solve abstract problems.
+"}, {"Id": 6,"Question": "Q.The Face Recognition system is based on
+","OptionA": "A. Strong Artificial Intelligence approach
+","OptionB": "B. Weak Artificial Intelligence approach
+","OptionC": "C. Cognitive Artificial Intelligence approach
+","OptionD": "D. Applied Artificial Intelligence approach
+","Answer": "Answer: D
+Explanation: Applied Artificial Intelligence approach aims to produce commercially viable “smart” systems such as, for example, a security system that is able to recognize the faces of people who permitted to enter a particular building. Applied Artificial Intelligence has already enjoyed considerable success.
+"}, {"Id": 7,"Question": "Q.A completely automated chess engine (Learn from previous games) is based on
+","OptionA": "A. Strong Artificial Intelligence approach
+","OptionB": "B. Weak Artificial Intelligence approach
+","OptionC": "C. Cognitive Artificial Intelligence approach
+","OptionD": "D. Applied Artificial Intelligence approach
+","Answer": "Answer: A
+Explanation: Strong Artificial Intelligence aims to build machines that can truly reason and solve problems. These machines must be self-aware and their overall intellectual ability needs to be indistinguishable from that of a human being. Strong Artificial Intelligence maintains that suitably programmed machines are capable of cognitive mental states
+"}, {"Id": 8,"Question": "Q.A basic line following robot is based on
+","OptionA": "A. Strong Artificial Intelligence approach
+","OptionB": "B. Weak Artificial Intelligence approach
+","OptionC": "C. Cognitive Artificial Intelligence approach
+","OptionD": "D. Applied Artificial Intelligence approach
+","Answer": "Answer: B
+Explanation: Weak Artificial Intelligence deals with the creation of some form of computer-based artificial intelligence that cannot truly reason and solve problems, but can act as if it were intelligent. Weak Artificial Intelligence holds that suitably programmed machines can simulate human cognition.
+"}, {"Id": 9,"Question": "Q.The following task/tasks Artificial Intelligence could not do yet
+","OptionA": "A. Understand natural language robustly
+","OptionB": "B. Web mining
+","OptionC": "C. Construction of plans in real time dynamic systems
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: D
+Explanation: These are the areas in which needs more focus for improvements.
+"}, {"Id": 10,"Question": "Q.What among the following is/are the example of the intelligent agent/agents?
+","OptionA": "A. Human
+","OptionB": "B. Robot
+","OptionC": "C. Autonomous Spacecraft
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: D
+Explanation: Humans can be looked upon as agents. They have eyes, ears, skin, taste buds, etc. for sensors; and hands, fingers, legs, mouth for effectors. Robots are agents. Robots may have camera, sonar, infrared, bumper, etc. for sensors. They can have grippers, wheels, lights, speakers, etc. for actuators. Autonomous Spacecraft takes decision on its own based on perceptions.
+"}]// qrce.basic electrical engineering
+
+[{"Id": 1,"Question": "Q.The reverse current in a diode is of the order of
+","OptionA": "A. kA
+","OptionB": "B. mA
+","OptionC": "C. µA
+","OptionD": "D. A
+","Answer": "Ans: C"}, {"Id": 2,"Question": "Q.The forward voltage drop across a diode is about....
+","OptionA": "A. 2.5V
+","OptionB": "B. 3V
+","OptionC": "C. 10V
+","OptionD": "D. 0.7V
+","Answer": "Ans: D"}, {"Id": 3,"Question": "Q.A semiconductor diode has ....
+","OptionA": "A. One PN junction
+","OptionB": "B. Two PN junction
+","OptionC": "C. Three PN junction
+","OptionD": "D. Four PN junction
+","Answer": "Ans: A"}, {"Id": 4,"Question": "Q.A semiconductor diode has ....
+","OptionA": "A. One PN junction
+","OptionB": "B. Two PN junction
+","OptionC": "C. Three PN junction
+","OptionD": "D. Four PN junction
+","Answer": "Ans: A"}, {"Id": 5,"Question": "Q.If the arrow of diode symbol is positive with respect to bar, then the diode is .... biased
+","OptionA": "A. Forward
+","OptionB": "B. Reverse
+","OptionC": "C. Either forward or reverse
+","OptionD": "D. None of the above
+","Answer": "Ans: A"}, {"Id": 6,"Question": "Q.The leakage current in a diode is due to
+","OptionA": "A. Minority Carriers
+","OptionB": "B. Majority Carriers
+","OptionC": "C. Junction Capacitance
+","OptionD": "D. None of the above
+","Answer": "Answer: A"}, {"Id": 7,"Question": "Q.The DC resistance of a diode is ..... its AC resistance
+","OptionA": "A. Same as
+","OptionB": "B. More than
+","OptionC": "C. Less than
+","OptionD": "D. None of the above
+","Answer": "Ans: C"}, {"Id": 8,"Question": "Q.An ideal diode is one which behaves as a perfect .... when forward biased
+","OptionA": "A. Conductor
+","OptionB": "B. Insulator
+","OptionC": "C. Resistance material
+","OptionD": "D. None of the above
+","Answer": "Ans: A"}, {"Id": 9,"Question": "Q.If the temperature of the diode increases,then leakage current....
+
+","OptionA": "A. Remains same
+","OptionB": "B. Decreases
+","OptionC": "C. Increases
+","OptionD": "D. Becomes zero
+","Answer": "Ans: C
+"}, {"Id": 10,"Question": "Q.In nodal analysis how many nodes are taken as reference nodes?
+","OptionA": "A. 1
+","OptionB": "B. 2
+","OptionC": "C. 3
+","OptionD": "D. 4
+","Answer": "Answer: A
+Explanation: In nodal analysis only one node is taken as reference node. And the node voltage is the voltage of a given node with respect to one particular node called the reference node."}]// qrce.computer graphic
+
+[{"id": 1,"Question": "Q.Which devices provides positional information to the graphics system ?
+","OptionA": "A. Input devices
+","OptionB": "B. Output devices
+","OptionC": "C. Pointing devices
+","OptionD": "D. Both a and c
+","Answer": "Answer: D
+Explanation: Input devices positional information to the system they often called pointing devices."}, {"id": 2,"Question": "Q.The number of pixels stored in the frame buffer of a graphics system is known as
+","OptionA": "A. Resolution
+","OptionB": "B. Depth
+","OptionC": "C. Resalution
+","OptionD": "D. Only A
+","Answer": "Answer: D
+Explanation: Number of pixels determines the resolution ."}, {"id": 3,"Question": "Q.The number of pixels stored in the frame buffer of a graphics system is known as
+","OptionA": "A. Resolution
+","OptionB": "B. Depth
+","OptionC": "C. Resalution
+","OptionD": "D. Only A
+","Answer": "Answer: D
+Explanation: Number of pixels determines the resolution ."}, {"id": 4,"Question": "Q.In graphical system, the array of pixels in the picture are stored in
+","OptionA": "A. Memory
+","OptionB": "B. Frame buffer
+","OptionC": "C. Processor
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: A
+Explanation: Frame buffer is mainly used to store pixels."}, {"id": 5,"Question": "Q.Heat supplied to the cathode by directing a current through a coil of wire is called
+","OptionA": "A. Electron gun
+","OptionB": "B. Electron beam
+","OptionC": "C. Filament
+","OptionD": "D. Anode and cathode
+","Answer": "Answer: C
+Explanation: In CRT the filament is responsible for supply of power."}, {"id": 6,"Question": "Q.The maximum number of points that can be displayed without overlap on a CRT is referred as
+","OptionA": "A. Picture
+","OptionB": "B. Resolution
+","OptionC": "C. Persistence
+","OptionD": "D. Neither b nor c
+","Answer": "Answer: B
+Explanation: none."}, {"id": 7,"Question": "Q.________ stores the picture information as a charge distribution behind the phosphor-coated screen.
+","OptionA": "A. Cathode ray tube
+","OptionB": "B. Direct-view storage tube
+","OptionC": "C. Flat panel displays
+","OptionD": "D. 3D viewing device
+","Answer": "Answer: B
+Explanation: Instead of refreshing, DVST stores the picture information behind the screen."}, {"id": 8,"Question": "Q.The devices which converts the electrical energy into light is called
+","OptionA": "A. Liquid-crystal displays
+","OptionB": "B. Non-emitters
+","OptionC": "C. Plasma panels
+","OptionD": "D. Emitters
+","Answer": "Answer: D
+Explanation: Emissive displays are devices that convert electrical energy into light."}, {"id": 9,"Question": "Q.Which display devices allows us to walk around an object and view it from different sides.
+","OptionA": "A. Direct view storage tubes
+","OptionB": "B. Three-dimensional devices
+","OptionC": "C. Flat panel display devices
+","OptionD": "D. Plasma panel display devices
+","Answer": "Answer: B
+Explanation: 3D display devices allows user to view the object from different sides."}, {"id": 10,"Question": "Q.In LCD, the refresh rate of the screen is
+","OptionA": "A. 60 frames/sec
+","OptionB": "B. 80 frames/sec
+","OptionC": "C. 30 frames/sec
+","OptionD": "D. 100 frames/sec
+","Answer": "Answer: A
+Explanation: LCD screen is refreshed at 60 frames per second."}]// qrce.computer network
+
+[{"Id": 1,"Question": "Q.Which of this is not a constituent of residential telephone line?
+","OptionA": "A. A high-speed downstream channel
+","OptionB": "B. A medium-speed downstream channel
+","OptionC": "C. A low-speed downstream channel
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: The third part is ordinary two way telephone channel."}, {"Id": 2,"Question": "Q.Which of this is not a constituent of residential telephone line?
+","OptionA": "A. A high-speed downstream channel
+","OptionB": "B. A medium-speed downstream channel
+","OptionC": "C. A low-speed downstream channel
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: The third part is ordinary two way telephone channel."}, {"Id": 3,"Question": "Q.In DSL telco provides these services
+","OptionA": "A. Wired phone access
+","OptionB": "B. ISP
+","OptionC": "C. All of the mentioned
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: The same company which provides phone connection is also its ISP in DSL.
+"}, {"Id": 4,"Question": "Q.The function of DSLAM is
+","OptionA": "A. Convert analog signals into digital signals
+","OptionB": "B. Convert digital signals into analog signals
+","OptionC": "C. Amplify digital signals
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: A
+Explanation: The DSLAM located in telco’s Central Office does this function."}, {"Id": 5,"Question": "Q.The following term is not associted with DSL
+","OptionA": "A. DSLAM
+","OptionB": "B. CO
+","OptionC": "C. Splitter
+","OptionD": "D. CMTS
+","Answer": "Answer: D
+Explanation: Cable modem termination system is used in cable internet access."}, {"Id": 6,"Question": "Q.HFC contains
+","OptionA": "A. Fibre cable
+","OptionB": "B. Coaxial cable
+","OptionC": "C. Both Fibre cable and Coaxial cable
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: None."}, {"Id": 7,"Question": "Q.The physical layer concerns with
+","OptionA": "A. bit-by-bit delivery
+","OptionB": "B. process to process delivery
+","OptionC": "C. application to application delivery
+","OptionD": "D. none of the mentioned
+","Answer": "Answer: A
+Explanation: None."}, {"Id": 8,"Question": "Q.Which transmission media has the highest transmission speed in a network?
+","OptionA": "A. coaxial cable
+","OptionB": "B. twisted pair cable
+","OptionC": "C. optical fiber
+","OptionD": "D. electrical cable
+","Answer": "Answer: C
+Explanation: None."}, {"Id": 9,"Question": "Q.Bits can be send over guided and unguided media as analog signal by
+","OptionA": "A. digital modulation
+","OptionB": "B. amplitude modulation
+","OptionC": "C. frequency modulation
+","OptionD": "D. phase modulation
+","Answer": "Answer: A
+Explanation: None."}, {"Id": 10,"Question": "Q.The portion of physical layer that interfaces with the media access control sublayer is called
+","OptionA": "A. physical signalling sublayer
+","OptionB": "B. physical data sublayer
+","OptionC": "C. physical address sublayer
+","OptionD": "D. none of the mentioned
+","Answer": "Answer: A
+Explanation: None."}]// qrce.database management system
+
+[{"Id": 1,"Question": "Q.Which of the following is a fundamental operation in relational algebra ?
+","OptionA": "A. Set intersection
+","OptionB": "B. Natural join
+","OptionC": "C. Assignment
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: D
+Explanation: The fundamental operations are select, project, union, set difference, Cartesian product, and rename."}, {"Id": 2,"Question": "Q.Which of the following is used to denote the selection operation in relational algebra ?
+","OptionA": "A. Pi (Greek)
+","OptionB": "B. Sigma (Greek)
+","OptionC": "C. Lambda (Greek)
+","OptionD": "D. Omega (Greek)
+","Answer": "Answer: B
+Explanation: The select operation selects tuples that satisfy a given predicate."}, {"Id": 3,"Question": "Q.For select operation the ________ appear in the subscript and the ___________ argument appears in the paranthesis after the sigma.
+","OptionA": "A. Predicates, relation
+","OptionB": "B. Relation, Predicates
+","OptionC": "C. Operation, Predicates
+","OptionD": "D. Relation, Operation
+","Answer": "Answer: A
+Explanation: None."}, {"Id": 4,"Question": "Q.Which is a unary operation:
+","OptionA": "A. Selection operation
+","OptionB": "B. Primitive operation
+","OptionC": "C. Projection operation
+","OptionD": "D. Generalized selection
+","Answer": "Answer: D
+Explanation: Generalization Selection takes only one argument for operation."}, {"Id": 5,"Question": "Q.Which is a join condition contains an equality operator:
+","OptionA": "A. Equijoins","OptionB": "B. Cartesian","OptionC": "C. Natural
+","OptionD": "D. Left
+","Answer": "Answer: A
+Explanation: None."}, {"Id": 6,"Question": "Q.In precedence of set operators the expression is evaluated from
+","OptionA": "A. Left to left
+","OptionB": "B. Left to right
+","OptionC": "C. Right to left
+","OptionD": "D. From user specification
+","Answer": "Answer: B
+Explanation: The expression is evaluated from left to right according to the precedence."}, {"Id": 7,"Question": "Q.Which of the following is not outer join ?
+","OptionA": "A. Left outer join
+","OptionB": "B. Right outer join
+","OptionC": "C. Full outer join
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: D
+Explanation: The FULL OUTER JOIN keyword combines the result of both LEFT and RIGHT joins."}, {"Id": 8,"Question": "Q.The assignment operator is denoted by
+","OptionA": "A. ->
+","OptionB": "B. <-
+","OptionC": "C. =
+","OptionD": "D. ==
+","Answer": "Answer: B
+Explanation: The result of the expression to the right of the ? is assigned to the relation variable on the left of the ?."}, {"Id": 9,"Question": "Q.An ________ is a set of entities of the same type that share the same properties, or attributes.
+","OptionA": "A. Entity set
+","OptionB": "B. Attribute set
+","OptionC": "C. Relation set
+","OptionD": "D. Entity model
+","Answer": "Answer: A
+Explanation: An entity is a “thing” or “object” in the real world that is distinguishable from all other objects."}, {"Id": 10,"Question": "Q.The attribute name could be structured as a attribute consisting of first name, middle initial, and last name. This type of attribute is called
+","OptionA": "A. Simple attribute
+","OptionB": "B. Composite attribute
+","OptionC": "C. Multivalued attribute
+","OptionD": "D. Derived attribute
+","Answer": "Answer: B
+Explanation: Composite attributes can be divided into subparts (that is, other attributes)."}]// qrce.data communication
+
+[{"Id": 1,"Question": "Q.Modulation is used for __________________
+","OptionA": "a) Reducing loss in transmission
+","OptionB": "b) Amplification of signal
+","OptionC": "c) Conversion of signal
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: a
+Explanation: For transmission over long range message signal is mixed with a carrier signal for reducing loss during transmission."}, {"Id": 2,"Question": "Q.In line code transmission, signal is represented by ______________
+","OptionA": "a) Impulses
+","OptionB": "b) Train of pulses
+","OptionC": "c) DC signal
+","OptionD": "d) Continuously varying signal
+","Answer": "Answer: b
+Explanation: In Line code transmission, signal is represented by a train of pulses known as baseband transmission."}, {"Id": 3,"Question": "Q.Which of the following process is explained as detection?
+","OptionA": "a) Modulation
+","OptionB": "b) Demodulation
+","OptionC": "c) Amplification
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: b
+Explanation: Demodulation or retrieving data from signal is known as demodulation or detection."}, {"Id": 4,"Question": "Q.Which of the following is represented as digital transmission?
+","OptionA": "a) Baseband bit stream transfer
+","OptionB": "b) Passband bit stream transfer
+","OptionC": "c) All of the mentioned
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: Both baseband and passband signals representing bit streams are considered to be digital transmission."}, {"Id": 5,"Question": "Q.PCM stands for ________________
+","OptionA": "a) Pulse create message
+","OptionB": "b) Pulse carry modulation
+","OptionC": "c) Pulse code modulation
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: Pulse code modulation is the process of conversion of analog signals to bit stream."}, {"Id": 6,"Question": "Q.Codec equipment is used for ______________
+","OptionA": "a) Source coding
+","OptionB": "b) Source decoding
+","OptionC": "c) All of the mentioned
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: Codec equipments are used for source coding and decoding processes."}, {"Id": 7,"Question": "Q.TCP stands for ___________
+","OptionA": "a) Tele Call Protocol
+","OptionB": "b) Transmission Control Protocol
+","OptionC": "c) Transmission Carry Protocol
+","OptionD": "d) Transmission Control Parity
+","Answer": "Answer: b
+Explanation: TCP stands for transmission control protocol."}, {"Id": 8,"Question": "Q.Tele-transmission is the process of transfer of ______________
+","OptionA": "a) Analog signals
+","OptionB": "b) Digital signals
+","OptionC": "c) Analog and digital signals
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: Tele-transmission is the process of both analog and digital transmission."}, {"Id": 9,"Question": "Q.Which of the following is not a digital modulation method?
+","OptionA": "a) FSK
+","OptionB": "b) PSK
+","OptionC": "c) ASK
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: d
+Explanation: Frequency shift keying, phase shift keying and amplitude shift keying are different methods of digital modulation."}, {"Id": 10,"Question": "Q.Transmission data rate is decided by
+","OptionA": "a) network layer
+","OptionB": "b) physical layer
+","OptionC": "c) data link layer
+","OptionD": "d) transport layer
+","Answer": "Answer: b
+Explanation: None."}]// qrce.data structure
+
+[{"Id": 1,"Question": "Q.Which of these best describes an array?
+","OptionA": "a) A data structure that shows a hierarchical behavior
+","OptionB": "b) Container of objects of similar types
+","OptionC": "c) Container of objects of mixed types
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: b
+Explanation: Array contains elements only of the same type."}, {"Id": 2,"Question": "Q.How do you initialize an array in C?
+","OptionA": "a) int arr[3] = (1,2,3);
+","OptionB": "b) int arr(3) = {1,2,3};
+","OptionC": "c) int arr[3] = {1,2,3};
+","OptionD": "d) int arr(3) = (1,2,3);
+","Answer": "Answer: c
+Explanation: This is the syntax to initialize an array in C."}, {"Id": 3,"Question": "Q.How do you instantiate an array in Java?
+","OptionA": "a) int arr[] = new int(3);
+","OptionB": "b) int arr[];
+","OptionC": "c) int arr[] = new int[3];
+","OptionD": "d) int arr() = new int(3);
+","Answer": "Answer: c
+Explanation: Note that option b is declaration whereas option c is to instantiate an array."}, {"Id": 4,"Question": "Q.Which of the following is a correct way to declare a multidimensional array in Java?
+","OptionA": "a) int[][] arr;
+","OptionB": "b) int arr[][];
+","OptionC": "c) int []arr[];
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: d
+Explanation: All the options are syntactically correct."}, {"Id": 5,"Question": "Q.When does the ArrayIndexOutOfBoundsException occur?
+","OptionA": "a) Compile-time
+","OptionB": "b) Run-time
+","OptionC": "c) Not an error
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: b
+Explanation: ArrayIndexOutOfBoundsException is a run-time exception and the compilation is error-free."}, {"Id": 6,"Question": "Q.Which of the following concepts make extensive use of arrays?
+","OptionA": "a) Binary trees
+","OptionB": "b) Scheduling of processes
+","OptionC": "c) Caching
+","OptionD": "d) Spatial locality
+","Answer": "Answer: d
+Explanation: Whenever a particular memory location is referred, it is likely that the locations nearby are also referred, arrays are stored as contigous blocks in memory, so if you want to access array elements, spatial locality makes it to access quickly.
+"}, {"Id": 7,"Question": "Q.What are the advantages of arrays?
+","OptionA": "a) Easier to store elements of same data type
+","OptionB": "b) Used to implement other data structures like stack and queue
+","OptionC": "c) Convenient way to represent matrices as a 2D array
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: d
+Explanation: Arrays are simple to implement when it comes to matrices of fixed size and type, or to implement other data structures."}, {"Id": 8,"Question": "Q.What are the disadvantages of arrays?
+","OptionA": "a) We must know before hand how many elements will be there in the array
+","OptionB": "b) There are chances of wastage of memory space if elements inserted in an array are lesser than than the allocated size
+","OptionC": "c) Insertion and deletion becomes tedious
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: d
+Explanation: Arrays are of fixed size, hence during the compile time we should know its size and type, since arrays are stored in contigous locations, insertion and deletion becomes time consuming.
+"}, {"Id": 9,"Question": "Q.Assuming int is of 4bytes, what is the size of int arr[15];?
+","OptionA": "a) 15
+","OptionB": "b) 19
+","OptionC": "c) 11
+","OptionD": "d) 60
+","Answer": "Answer: d
+Explanation: Since there are 15 int elements and each int is of 4bytes, we get 15*4 = 60bytes."}, {"Id": 10,"Question": "Q.Why we need to a binary tree which is height balanced?
+","OptionA": "a) to avoid formation of skew trees
+","OptionB": "b) to save memory
+","OptionC": "c) to attain faster memory access
+","OptionD": "d) to simplify storing
+","Answer": "Answer: a
+Explanation: In real world dealing with random values is often not possible, the probability that u are dealing with non random values(like sequential) leads to mostly skew trees, which leads to worst case. hence we make height balance by rotations.
+"}]// qrce.digital signal analysis and processing
+
+[{"Id": 1,"Question": "Q.To reduce side lobes, in which region of the filter the frequency specifications has to be optimized?
+","OptionA": "A. Stop band
+","OptionB": "B. Pass band
+","OptionC": "C. Transition band
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: To reduce the side lobes, it is desirable to optimize the frequency specification in the transition band of the filter. This optimization can be accomplished numerically on a digital computer by means of linear programming techniques.
+"}, {"Id": 2,"Question": "Q.Which of the following is equal to the value of H(k+a)?
+","OptionA": "A. H*(M-k+a)
+","OptionB": "B. H*(M+k+a)
+","OptionC": "C. H*(M+k-a)
+","OptionD": "D. H*(M-k-a)
+","Answer": "Answer: D
+Explanation: Since {h(n)} is real, we can easily show that the frequency samples {H(k+a)} satisfy the symmetry condition
+H(k+a)= H*(M-k-a)."}, {"Id": 3,"Question": "Q.Which of the following is introduced in the frequency sampling realization of the FIR filter?
+","OptionA": "A. Poles are more in number on unit circle
+
+","OptionB": "B. Zeros are more in number on the unit circle
+","OptionC": "C. Poles and zeros at equally spaced points on the unit circle
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: C
+Explanation: There is a potential problem for frequency sampling realization of the FIR linear phase filter. The frequency sampling realization of the FIR filter introduces poles and zeros at equally spaced points on the unit circle."}, {"Id": 4,"Question": "Q.Why is it desirable to optimize frequency response in the transition band of the filter?
+","OptionA": "A. Increase side lobe
+","OptionB": "B. Reduce side lobe
+","OptionC": "C. Increase main lobe
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: B
+Explanation: To reduce side lobes, it is desirable to optimize the frequency specification in the transition band of the filter.
+"}, {"Id": 5,"Question": "Q.If x(n) and X(k) are an N-point DFT pair, then X(k+N)=?
+","OptionA": "A. X(-k)
+","OptionB": "B. -X(k)
+","OptionC": "C. X(k)
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: D
+Explanation: We know that
+digital-signal-processing-questions-answers-properties-dft-q2
+Therefore, we have X(k)=X(k+N)."}, {"Id": 6,"Question": "Q.If X1(k) and X2(k) are the N-point DFTs of x1(n) and x2(n) respectively, then what is the N-point DFT of x(n)=ax1(n)+bx2(n)?
+","OptionA": "A. X1(ak)+X2(bk)
+","OptionB": "B. aX1(k)+bX2(k)
+","OptionC": "C. eakX1(k)+ebkX2(k)
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: B
+Explanation: We know that, the DFT of a signal x(n) is given by the expression
+digital-signal-processing-questions-answers-properties-dft-q3
+=>X(k)= aX1(k)+bX2(k)."}, {"Id": 7,"Question": "Q.If x(n) is a real sequence and X(k) is its N-point DFT, then which of the following is true?
+","OptionA": "A. X(N-k)=X(-k)
+","OptionB": "B. X(N-k)=X*(k)
+","OptionC": "C. X(-k)=X*(k)
+","OptionD": "D. All of the mentioned
+","Answer": "Answer: D
+Explanation: We know that
+properties of DFT
+Therefore,
+X(N-k)=X*(k)=X(-k)"}, {"Id": 8,"Question": "Q.What is the circular convolution of the sequences x1(n)={2,1,2,1} and x2(n)={1,2,3,4}?
+","OptionA": "A. {14,14,16,16}
+","OptionB": "B. {16,16,14,14}
+","OptionC": "C. {2,3,6,4}
+","OptionD": "D. {14,16,14,16}
+","Answer": "Answer: D
+Explanation: We know that the circular convolution of two sequences is given by the expression
+For m=0,x2((-n))4={1,4,3,2}
+For m=1,x2((1-n))4={2,1,4,3}
+For m=2,x2((2-n))4={3,2,1,4}
+For m=3,x2((3-n))4={4,3,2,1}
+Now we get x(m)={14,16,14,16}."}, {"Id": 9,"Question": "Q.What is the circular convolution of the sequences x1(n)={2,1,2,1} and x2(n)={1,2,3,4}, find using the DFT and IDFT concepts?
+","OptionA": "A. {16,16,14,14}
+","OptionB": "B. {14,16,14,16}
+","OptionC": "C. {14,14,16,16}
+","OptionD": "D. None of the mentioned
+","Answer": "Answer: B
+Explanation: Given x1(n)={2,1,2,1}=>X1(k)=[6,0,2,0] Given x2(n)={1,2,3,4}=>X2(k)=[10,-2+j2,-2,-2-j2] when we multiply both DFTs we obtain the product
+X(k)=X1(k).X2(k)=[60,0,-4,0] By applying the IDFT to the above sequence, we get
+x(n)={14,16,14,16}.
+"}, {"Id": 10,"Question": "Q.What is the circular convolution of the sequences x1(n)={2,1,2,1} and x2(n)={1,2,3,4}, find using the DFT and IDFT concepts?
+","OptionA": "a) {16,16,14,14}
+","OptionB": "b) {14,16,14,16}
+","OptionC": "c) {14,14,16,16}
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: b
+Explanation: Given x1(n)={2,1,2,1}=>X1(k)=[6,0,2,0] Given x2(n)={1,2,3,4}=>X2(k)=[10,-2+j2,-2,-2-j2] when we multiply both DFTs we obtain the product
+X(k)=X1(k).X2(k)=[60,0,-4,0] By applying the IDFT to the above sequence, we get
+x(n)={14,16,14,16}."}]// qrce.electronic device
+
+[{"Id": 1,"Question": "Q.At room temperature the current in an intrinsic semiconductor is due to
+","OptionA": "A.holes
+","OptionB": "B.electrons
+","OptionC": "C.ions
+","OptionD": "D.holes and electrons
+","Answer": "Answer: Option D
+
+Explanation:
+
+Intrinsic material has equal number of holes and electrons."}, {"Id": 2,"Question": "The most commonly used semiconductor material is
+","OptionA": "A.silicon
+","OptionB": "B.germanium
+","OptionC": "C.mixture of silicon and germanium
+","OptionD": "D.none of the above
+","Answer": "Answer: Option A
+
+Explanation:
+
+Germanium is rarely used.
+"}, {"Id": 3,"Question": "Q.In which of these is reverse recovery time nearly zero?
+","OptionA": "A.Zener diode
+","OptionB": "B.Tunnel diode
+","OptionC": "C.Schottky diode
+","OptionD": "D.PIN diode
+","Answer": "Answer: Option C
+
+Explanation:
+
+In schottky diode there is no charge storage and hence almost zero reverse recovery time.
+"}, {"Id": 4,"Question": "Q.A transistor has a current gain of 0.99 in the CB mode. Its current gain in the CC mode is
+","OptionA": "A.100
+","OptionB": "B.99
+","OptionC": "C.1.01
+","OptionD": "D.0.99
+","Answer": "Answer: Option A
+
+Explanation:
+
+ Current gain = 1 + ß = 100."}, {"Id": 5,"Question": "Q.In p-n-p transistor the current IE has two components viz. IEP due to injection of holes from p-region to n-region and IE due to injection of electrons from n-region to p-region. Then
+","OptionA": "A.IEp and IEn are almost equal
+","OptionB": "B.IEp >> IEn
+","OptionC": "C.IEn >> IEp
+","OptionD": "D.either (a) or (c)
+","Answer": "Answer: Option B
+
+Explanation:
+
+Emitter is p-type in p-n-p transistor.
+
+Therefore holes are majority carriers."}, {"Id": 6,"Question": "Q.In an n channel JFET, the gate is
+","OptionA": "A.n type
+","OptionB": "B.p type
+","OptionC": "C.either n or p
+","OptionD": "D.partially n & partially p
+","Answer": "Answer: Option B
+
+Explanation:
+
+Since channel is n type gate must be p type.
+"}, {"Id": 7,"Question": "Q.The amount of photoelectric emission current depends on
+","OptionA": "A.frequency of incident radiation
+
+","OptionB": "B.intensity of incident radiation
+","OptionC": "C.both frequency and intensity of incident radiation
+","OptionD": "D.none of the above
+","Answer": "Answer: Option B
+
+Explanation:
+
+Only the intensity of incident radiation governs the amount of photoelectric emission."}, {"Id": 8,"Question": "Q.What is the thickness of ‘space charge region’ or ‘transition region’ in P-N junction diode?
+","OptionA": "A. 1 micron
+","OptionB": "B. 5 micron
+","OptionC": "C. 10 micron
+","OptionD": "D. 2.876 micron
+","Answer": "Answer: A
+Explanation: The region of the junction is depleted by mobile charges, hence it is called space charge region or depletion region or transition region which is 10-4 cm = 10-6 m= 1 micron.
+"}, {"Id": 9,"Question": "Q.If what of the following is doped into a semiconductor say germanium a P-N junction is formed.
+","OptionA": "A. Electrons and Protons
+","OptionB": "B. Protons and Neutrons
+","OptionC": "C. Neutrons and Electrons
+","OptionD": "D. Gallium and Phosphorus
+","Answer": "Answer: D
+
+Explanation: A P-N junction is formed only when a donor impurities and acceptor impurities are added to either side of a semiconductor like silicon and germanium.
+"}, {"Id": 10,"Question": "Q.The tendency of charge carriers to move from a region of heavily concentrated charges to region of less concentrated charge is known as.
+","OptionA": "A. Depletion current
+","OptionB": "B. Drain current
+","OptionC": "C. Diffusion current
+","OptionD": "D. Saturation current
+","Answer": "Answer: C
+
+Explanation: In a semiconductor the charge will always have a tendency to move from higher concentrated area to less concentrated area to maintain equilibrium this movement of charges will result in diffusion current.
+"}]// qrce.embedded system
+
+[{"Id": 1,"Question": "Q.Which can prevent the terminal of data transmission?
+","OptionA": "a) flow control
+","OptionB": "b) increasing flow
+","OptionC": "c) increasing count
+","OptionD": "d) terminal count
+
+","Answer": "Answer: a
+Explanation: The flow control can prevent the data transmission. It can also prevent the computer from sending more data than the other can cope with."}, {"Id": 2,"Question": "Q.Which of the following is the first flow control method?
+","OptionA": "a) software handshaking
+","OptionB": "b) hardware handshaking
+","OptionC": "c) UART
+","OptionD": "d) SPI
+","Answer": "Answer: b
+Explanation: The first flow control method is the hardware handshaking in which the hardware in the UART detects the potential overrun and it will assert a handshake line to tell the other UART to stop the transmission.
+"}, {"Id": 3,"Question": "Q.Which process defines the allocation of the mass storage to the logical file system?
+","OptionA": "a) mounting
+","OptionB": "b) de-allocation
+","OptionC": "c) demounting
+","OptionD": "d) unmounting
+","Answer": "Answer: a
+
+Explanation: The allocation of the mass storage to the logical file system is known as the mounting and its reverse operation, deallocation of the mass storage is known as unmounting.
+"}, {"Id": 4,"Question": "Q.Which one of the following is the second method for flow controlling?
+","OptionA": "a) hardware
+","OptionB": "b) peripheral
+","OptionC": "c) software
+","OptionD": "d) memory
+","Answer": "Answer: c
+
+Explanation: In the first method of flow control, there is a chance of data loss. So the second method of the flow control is adopted in which it uses a software to send characters XON and XOFF. XOFF can stop the data transfer and XON can restart the data transfer.
+"}, {"Id": 5,"Question": "Q.Which can restart the data transmission?
+","OptionA": "a) XON
+","OptionB": "b) XOFF
+","OptionC": "c) XRST
+","OptionD": "d) restart button
+","Answer": "Answer: a
+
+Explanation: The second method of flow control is called software which is based on certain characters called XON and XOFF. XOFF can stop the data transfer and XON can restart the data transfer.
+"}, {"Id": 6,"Question": "Q.Which of the following is a common connector?
+","OptionA": "a) UART
+","OptionB": "b) SPI
+","OptionC": "c) I2C
+","OptionD": "d) DB-25
+","Answer": "Answer: d
+
+Explanation: There are two connectors which are used very commonly. They are DB-25 and DB-9 which has 25 pins and 9 pins respectively.
+"}, {"Id": 7,"Question": "Q.What does pin 22 in DB-25 indicates?
+
+","OptionA": "a) transmit data
+","OptionB": "b) receive data
+","OptionC": "c) ring indicator
+","OptionD": "d) signal ground
+","Answer": "Answer: c
+
+Explanation: The 22nd pin in DB-25 and the 9th pin in the DB-9 indicates a ring indicator which is asserted when a connected modem has detected an incoming call."}, {"Id": 8,"Question": "Q.Which pin indicates the DSR in DB-25?
+","OptionA": "a) 1
+","OptionB": "b) 2
+","OptionC": "c) 4
+","OptionD": "d) 6
+","Answer": "Answer: d
+
+Explanation: The 6th pin in DB-25 indicates DSR, that is, data set ready which indicates that each side is powered on and is ready to access data."}, {"Id": 9,"Question": "Q.Which directory is allocated on the hard disk 1 of the physical storage in  a Linux operating system?
+","OptionA": "a) term
+","OptionB": "b) dev
+","OptionC": "c) etc
+","OptionD": "d) bin
+","Answer": "Answer: d
+
+Explanation: The bin directory is on the hard disk 1 of the physical storage whereas the term, dev, etc is on the hard disk 1 of the physical logical file system.
+"}, {"Id": 10,"Question": "Q.Which filesystem of the Linux can be implemented on a system with two hard disks?
+","OptionA": "a) logical file system
+","OptionB": "b) physical file system
+","OptionC": "c) special file type system
+","OptionD": "d) regular file type system
+","Answer": "Answer: a
+
+Explanation: The physical file system is allocated to the parts of the logical file system. The logical file system can be implemented on a system with two hard disks by the allocation of the bin directory under the hard disk 1 and the file subsystem under the hard disk 2.
+"}]// qrce.information system
+
+[{"Id": 1,"Question": "Q.The information of MIS comes from the
+","OptionA": "A.Internal source
+","OptionB": "B.External source
+","OptionC": "C.Both internal and external source
+","OptionD": "D.None of the above
+ ","Answer": "Answer: C
+ Explanation: None"}, {"Id": 2,"Question": "Q.The back bone of any organization is
+","OptionA": "A.information
+","OptionB": "B.employee
+","OptionC": "C.management
+","OptionD": "D.capital
+","Answer": " Answer: A
+ Explanation: None
+"}, {"Id": 3,"Question": "Q.AI is the short form of
+
+ ","OptionA": "A.Artificial information
+","OptionB": "B.Artificial intelligence
+","OptionC": "C.Artificial integration
+","OptionD": "D.None of the above
+ ","Answer": "Answer: B
+ Explanation: None"}, {"Id": 4,"Question": "Q.The advantage(s) of transistors are they
+","OptionA": "A.Are portable
+","OptionB": "B.Are more reliable
+","OptionC": "C.Consume less power
+","OptionD": "D.All of the above
+ ","Answer": "Answer: D
+ Explanation: None"}, {"Id": 5,"Question": "Q.The flow of information through MIS is
+
+","OptionA": "A.need dependent
+","OptionB": "B.organization dependent
+","OptionC": "C.information dependent
+","OptionD": "D.management dependent
+ ","Answer": "Answer: A
+ Explanation: None"}, {"Id": 6,"Question": "Q.The elements of control will consist of
+
+","OptionA": "A.Authority, Direction, Management
+","OptionB": "B.Authority, Direction, Information
+","OptionC": "C.Authority, Application, Management
+","OptionD": "D.Authority, Application, Information
+","Answer": "Answer: A
+ Explanation: None"}, {"Id": 7,"Question": "Q.Internal information for MIS may come from any one of the following department.
+
+","OptionA": "A.Customers care department
+","OptionB": "B.HR department
+","OptionC": "C.Marketing department
+","OptionD": "D.Production department
+","Answer": "Answer: A
+ Explanation: None
+ "}, {"Id": 8,"Question": "Q.One byte is made of
+
+","OptionA": "A.Four bits
+","OptionB": "B.Eight bits
+","OptionC": "C.Twelve bits
+","OptionD": "D.Sixteen bits
+","Answer": "Answer: B
+ Explanation: None"}, {"Id": 9,"Question": "Q.MIS normally found in a manufacturing organization will not be suitable in the ______.
+
+","OptionA": "A.Service sector
+","OptionB": "B.Banking sector
+","OptionC": "C.Agriculture sector
+","OptionD": "D.All of the above
+","Answer": "Answer: A
+ Explanation: None"}, {"Id": 10,"Question": "Q.The basic component(s) of DSS is (are)
+
+","OptionA": "A.Database
+","OptionB": "B.Model base
+","OptionC": "C.DSS software system
+","OptionD": "D.All of the above
+","Answer": "Answer: D
+ Explanation: None"}]// qrce.java
+
+[{"Id": 1,"Question": "Q.What is the default value of double variable?
+
+","OptionA": "A - 0.0d
+
+","OptionB": "B - 0.0f
+
+
+","OptionC": "C - 0
+
+","OptionD": "D - not defined
+
+","Answer": "Answer : A
+Explanation:
+double variable has default value of 0.0d if defined as an instance/static variable."}, {"Id": 2,"Question": "Q.Which of the following stands true about default modifier of class members?
+
+","OptionA": "A. By default, variables, methods and constructors can be accessed by subclass only.
+
+","OptionB": "B. By default, variables, methods and constructors can be accessed by any class lying in any package.
+
+","OptionC": "C. By default, variables, methods and constructors can be accessed by any class lying in the same package.
+
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : C
+Explanation
+By default, variables, methods and constructors can be accessed by any class lying in the same package.
+"}, {"Id": 3,"Question": "Q.What is Abstraction?
+
+","OptionA": "A. Abstraction is a technique to define different methods of same type.
+
+","OptionB": "B. Abstraction is the ability of an object to take on many forms.
+
+","OptionC": "C. It refers to the ability to make a class abstract in OOP.
+
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : C
+Explanation:
+It refers to the ability to make a class abstract in OOP. It helps to reduce the complexity and also improves the maintainability of the system."}, {"Id": 4,"Question": "Q.Static binding uses which information for binding?
+
+","OptionA": "A. type.
+
+","OptionB": "B. object.
+
+","OptionC": "C. Both of the above.
+
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : A
+Explanation
+Static binding uses type information for binding.
+"}, {"Id": 5,"Question": "Q.What is runtime polymorphism?
+
+","OptionA": "A. Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.
+
+","OptionB": "B. Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile-time.
+
+
+","OptionC": "C. Both of the above.
+
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : A
+Explanation
+Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time. In this process, an overridden method is called through the reference variable of a superclass."}, {"Id": 6,"Question": "Q.Which method must be implemented by all threads?
+
+","OptionA": "A. wait()
+
+","OptionB": "B. start()
+","OptionC": "C. stop()
+","OptionD": "D. run()
+
+","Answer": "Answer : D
+Explanation
+All threads must implement the run() method."}, {"Id": 7,"Question": "Q.What is an immutable object?
+
+","OptionA": "A. An immutable object can be changed once it is created.
+","OptionB": "B. An immutable object can\'t be changed once it is created.
+","OptionC": "C. An immutable object is an instance of an abstract class.
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : B
+Explanation
+An immutable object can\'t be changed once it is created. String objects are immutable."}, {"Id": 8,"Question": "Q.Which of the following is a thread safe?
+
+","OptionA": "A. StringBuilder
+
+","OptionB": "B. StringBuffer
+","OptionC": "C. Both of the above
+","OptionD": "D. none of the above
+
+","Answer": "Answer : B
+Explanation
+StringBuffer is thread safe."}, {"Id": 9,"Question": "Q.What is a marker interface?
+
+","OptionA": "A. marker interface is an interface with no method.
+","OptionB": "B. marker interface is an interface with single method, mark().
+","OptionC": "C. marker interface is an interface with single method, marker().
+","OptionD": "D. none of the above.
+
+","Answer": "Answer : A
+Explanation
+Marker interface is an interface with no method.
+"}, {"Id": 10,"Question": "Q.What is JIT compiler?
+
+
+","OptionA": "A. JIT improves the runtime performance of computer programs based on bytecode.
+
+","OptionB": "B. JIT is an application development framework.
+","OptionC": "C. JIT is an implementation of the Java Virtual Machine which executes Java programs.
+","OptionD": "D. None of the above.
+
+","Answer": "Answer : A
+Explanation
+JIT, Just In-Time Compiler, improves the runtime performance of computer programs based on bytecode."}]// qrce.logic circuit
+
+[{"Id": 1,"Question": "Q.If the output of a three-input AND gate must be a logic LOW, what must the condition of the inputs be?
+
+","OptionA": "A.	All inputs must be LOW.
+","OptionB": "B.	All inputs must be HIGH.
+","OptionC": "C.	At least one input must be LOW.
+","OptionD": "D.	At least one input must be HIGH.
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}, {"Id": 2,"Question": "Q.Logically, the output of a NOR gate would have the same Boolean expression as a(n):
+
+","OptionA": "A.NAND gate immediately followed by an inverter
+","OptionB": "B.OR gate immediately followed by an inverter
+","OptionC": "C.AND gate immediately followed by an inverter
+","OptionD": "D.NOR gate immediately followed by an inverter
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 3,"Question": "Q.A logic probe is placed on the output of a gate and the display indicator is dim. A pulsor is used on each of the input terminals, but the output indication does not change. What is wrong?
+
+","OptionA": "A.The dim indication on the logic probe indicates that the supply voltage is probably low.
+","OptionB": "B.The output of the gate appears to be open.
+","OptionC": "C.The dim indication is the result of a bad ground connection on the logic probe.
+","OptionD": "D.The gate is a tristate device.
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 4,"Question": "Q.What is the Boolean expression for a three-input AND gate?
+
+","OptionA": "A.X = A + B + C
+","OptionB": "B.X = A · B · C
+","OptionC": "C.A – B – C
+","OptionD": "D.A $ B $ C
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 5,"Question": "Q.Which of the following gates has the exact inverse output of the OR gate for all possible input combinations?
+
+","OptionA": "A.NOR
+","OptionB": "B.NOT
+","OptionC": "C.NAND
+","OptionD": "D.AND
+","Answer": "Answer: Option A
+Explanation:
+No answer description available for this question."}, {"Id": 6,"Question": "Q.What are the pin numbers of the outputs of the gates in a 7432 IC?
+
+","OptionA": "A.3, 6, 10, and 13
+","OptionB": "B.1, 4, 10, and 13
+","OptionC": "C.3, 6, 8, and 11
+","OptionD": "D.1, 4, 8, and 11
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}, {"Id": 7,"Question": "Q.The output of a NOT gate is HIGH when ________.
+
+","OptionA": "A.the input is LOW
+","OptionB": "B.the input is HIGH
+","OptionC": "C.power is applied to the gate\'s IC
+","OptionD": "D.power is removed from the gate\'s IC
+","Answer": "Answer: Option A
+Explanation:
+No answer description available for this question."}, {"Id": 8,"Question": "Q.A logic probe is used to test the pins of a 7411 IC with the following results. Is there a problem with the chip and if so, what is the problem?
+
+
+
+","OptionA": "A.Pin 6 should be ON.
+","OptionB": "B.Pin 6 should be pulsing.
+","OptionC": "C.Pin 8 should be ON.
+","OptionD": "D.no problem
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 9,"Question": "Q.How many inputs of a four-input AND gate must be HIGH in order for the output of the logic gate to go HIGH?
+
+","OptionA": "A.any one of the inputs
+","OptionB": "B.any two of the inputs
+","OptionC": "C.any three of the inputs
+","OptionD": "D.all four inputs
+","Answer": "Answer: Option D
+Explanation:
+No answer description available for this question."}, {"Id": 10,"Question": "Q.How many AND gates are found in a 7411 IC?
+
+","OptionA": "A.1
+","OptionB": "B.2
+","OptionC": "C.3
+","OptionD": "D.4
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}]// qrce.mathematics
+
+[{"Id": 1,"Question": "Q.A and B are two events such that P(A) = 0.4 and P(A ∩ B) = 0.2 Then P(A ∩ B) is equal to
+","OptionA": "a) 0.4
+","OptionB": "b) 0.2
+","OptionC": "c) 0.6
+","OptionD": "d) 0.8
+","Answer": "Answer: a
+Explanation: P(A ∩ B) = P(A – (A ∩ B))
+= P(A) – P(A ∩ B)
+= 0.6 – 0.2 Using P(A) = 1 – P(A)
+= 0.4."}, {"Id": 2,"Question": "Q. A problem in mathematics is given to three students A, B and C . If the probability of A solving the problem is 1⁄2 and B not solving it is 1⁄4 . The whole probability of the problem being solved is 63⁄64 then what is the probability of solving it ?
+","OptionA": "a) 1⁄8
+","OptionB": "b) 1⁄64
+","OptionC": "c) 7⁄8
+","OptionD": "d) 1⁄2
+","Answer": "Answer: c
+Explanation:
+Let A be the event of A solving the problem
+Let B be the event of B solving the problem
+Let C be the event of C solving the problem
+Given P(a) = 1⁄2, P(~B) = 1⁄4 and P(A ∪ B ∪ C) = 63/64
+We know P(A ∪ B ∪ C) = 1 – P(A ∪ B ∪ C)
+
+= 1 – P(A ∩ B ∩ C)
+
+= 1 – P(A) P(B) P(C)
+
+Let P(C) = p
+ie 63⁄64 = 1 – (1⁄2)(1⁄4)(p)
+
+= 1 – p⁄8
+⇒ P =1/8 = P(C)
+⇒P(C) = 1 – P = 1 – 1⁄8 = 7⁄8."}, {"Id": 3,"Question": "Q.Let A and B be two events such that P(A) = 1⁄5 While P(A or B) = 1⁄2. Let P(B) = P. For what values of P are A and B independent?
+","OptionA": "a) 1⁄10 and 3⁄10
+","OptionB": "b) 3⁄10 and 4⁄5
+","OptionC": "c) 3⁄8 only
+","OptionD": "d) 3⁄10
+","Answer": "Answer: c
+Explanation:
+For independent events,
+P(A ∩ B) = P(A) P(B)
+P(A ∪ B) = P(A) + P(B) – P(A ∩ B)
+= P(A) + P(B) – P(A) P(B)
+= 1⁄5 + P (1⁄5)P
+⇒ 1⁄2 = 1⁄5 + 4⁄5P
+⇒ P= 3⁄8."}, {"Id": 4,"Question": "Q.If A and B are two events such that P(a) = 0.2, P(b) = 0.6 and P(A /B) = 0.2 then the value of P(A /~B) is
+","OptionA": "a) 0.2
+","OptionB": "b) 0.5
+","OptionC": "c) 0.8
+","OptionD": "d) 1⁄3
+","Answer": "Answer: a
+Explanation: For independent events,
+P(A /~B) = P(a) = 0.2."}, {"Id": 5,"Question": "Q.Let A and B be two events such that the occurrence of A implies occurrence of B, But not vice-versa, then the correct relation between P(a) and P(b) is
+","OptionA": "a) P(A) < P(B)
+","OptionB": "b) P(B) ≥ P(A)
+","OptionC": "c) P(A) = P(B)
+","OptionD": "d) P(A) ≥ P(B)
+","Answer": "Answer: b
+Explanation: Here, according to the given statement A ⊆ B
+In this case P(B) = P(A ∪ (A ∩ B))
+= P(A) + P(A ∩ B)
+Therefore, P(B) ≥ P(A)"}, {"Id": 6,"Question": "Q.If then,
+","OptionA": "a) P(a) > P(b)
+","OptionB": "b) P(a) > P(b)
+","OptionC": "c) P(a) = P(b)
+","OptionD": "d) P(~A) less than P(~B)
+","Answer": "Answer: c
+Explanation: A ⊂ B, B ⊂ A
+That means A = B
+Hence P(a) = P(b)."}, {"Id": 7,"Question": "Q.If A is a subset of B then,
+","OptionA": "a) P(a) is greater than P(b)
+","OptionB": "b) P(~A) is greater than or equal to P(~B)
+","OptionC": "c) P(b) is equal to P(a)
+","OptionD": "d) P(b) is equal to P(~B)
+","Answer": "Answer: b
+Explanation: A is a subset of B which means (~B) is a subset of (~A)
+Therefore P(~A) is greater than or equal to P(~B)."}, {"Id": 8,"Question": "Q.If A is a perfect subset of B and P(a < Pb), then P(B – A) is equal to
+","OptionA": "a) P(a) / P(b)
+","OptionB": "b) P(a)P(b)
+","OptionC": "c) P(a) + P(b)
+.","OptionD": "d) P(b) – P(a)
+","Answer": "Answer: d
+Explanation:
+From Basic Theorem of probability,
+P(B – A) = P(b) – P(a), this is true only if the condition given in the question is true"}, {"Id": 9,"Question": "Q.Maximize the function x + y – z = 1 with respect to the constraint xy=36.
+","OptionA": "a) 0
+","OptionB": "b) -8
+","OptionC": "c) 8
+
+","OptionD": "d) No Maxima exists
+","Answer": "Answer: d
+Explanation: Geometrically, we can see that the level curves can go further the origin along the curve xy=36 infinitely and still not reach its maximum value. What the Lagrange multiplier predicts in this case is the minimum value."}, {"Id": 10,"Question": "Q.Maximum value of a 3-d plane is to be found over a circular region. Which of the following happens if we increase the radius of the circular region.
+","OptionA": "a) Maximum value is invariant
+","OptionB": "b) Maximum value decreases
+
+","OptionC": "c) Maximum value increases and minimum value goes lesser
+","OptionD": "d) minimum value goes higher
+","Answer": "Answer: c
+Explanation:Consider the level curves of the plane. These are the set of straight lines with equal slope and unequal intercepts. Now as the radius of the circular region is increased, we see that the Lagrange condition(i.e. the level curves to be tangent to the circular boundary) happens to occur further away form the origin. Thus the maximum value is pushed further and the minimum value is decreased further."}]// qrce.microprocessor
+
+[{"Id": 1,"Question": "Q.The devices that provide the means for a computer to communicate with the user or other computers are referred to as:
+
+","OptionA": "A.CPU
+","OptionB": "B.ALU
+","OptionC": "C.I/O
+","OptionD": "D.none of the above
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}, {"Id": 2,"Question": "Q.The software used to drive microprocessor-based systems is called:
+
+","OptionA": "A.assembly language
+","OptionB": "B.firmware
+","OptionC": "C.machine language code
+","OptionD": "D.BASIC interpreter instructions
+","Answer": "Answer: Option A
+Explanation:
+No answer description available for this question."}, {"Id": 3,"Question": "Q.The circuits in the 8085A that provide the arithmetic and logic functions are called the:
+
+","OptionA": "A.CPU
+","OptionB": "B.ALU
+","OptionC": "C.I/O
+","OptionD": "D.none of the above
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 4,"Question": "Q.How many buses are connected as part of the 8085A microprocessor?
+
+","OptionA": "A.2
+","OptionB": "B.3
+","OptionC": "C.5
+ ","OptionD": "D.8
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 5,"Question": "Q.The ________ ensures that only one IC is active at a time to avoid a bus conflict caused by two ICs writing different data to the same bus.
+
+","OptionA": "A.control bus
+","OptionB": "B.control instructions
+","OptionC": "C.address decoder
+","OptionD": "D.CPU
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}, {"Id": 6,"Question": "Q.When was the first 8-bit microprocessor introduced?
+
+","OptionA": "A.1969
+","OptionB": "B.1974
+","OptionC": "C.1979
+","OptionD": "D.1985
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 7,"Question": "Q.What type of circuit is used at the interface point of an output port?
+
+","OptionA": "A.decoder
+","OptionB": "B.latch
+","OptionC": "C.tristate buffer
+","OptionD": "D.none of the above
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}, {"Id": 8,"Question": "Q.I/O mapped systems identify their input/output devices by giving them a(n) ________.
+
+","OptionA": "A.8-bit port number
+","OptionB": "B.16-bit port number
+","OptionC": "C.8-bit buffer number
+","OptionD": "D.8-bit instruction
+","Answer": "Answer: Option A
+Explanation:
+No answer description available for this question."}, {"Id": 9,"Question": "Q.What type of circuit is used at the interface point of an input port?
+
+","OptionA": "A.decoder
+","OptionB": "B.latch
+","OptionC": "C.tristate buffer
+","OptionD": "D.none of the above
+","Answer": "Answer: Option C
+Explanation:
+No answer description available for this question."}, {"Id": 10,"Question": "Q.The register in the 8085A that is used to keep track of the memory address of the next op-code to be run in the program is the:
+
+","OptionA": "A.stack pointer
+","OptionB": "B.program counter
+","OptionC": "C.instruction pointer
+","OptionD": "D.accumulator
+","Answer": "Answer: Option B
+Explanation:
+No answer description available for this question."}]// qrce.net
+
+[{"Id": 1,"Question": "Q.The capability of an object in Csharp to take number of different forms and hence display behaviour as according is known as:
+","OptionA": "a) Encapsulation
+","OptionB": "b) Polymorphism
+","OptionC": "c) Abstraction
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: b
+Explanation: None."}, {"Id": 2,"Question": "Q.Which of the following keyword is used to change data and behavior of a base class by replacing a member of the base class with a new derived member?
+","OptionA": "a) Overloads
+","OptionB": "b) Overrides
+","OptionC": "c) new
+","OptionD": "d) base
+","Answer": "Answer: c
+Explanation: None."}, {"Id": 3,"Question": "Q.Correct way to overload +operator?
+","OptionA": "a) public sample operator + ( sample a, sample b)
+","OptionB": "b) public abstract operator + (sample a,sample b)
+","OptionC": "c) public static sample operator + (sample a, sample b)
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: d
+Explanation: None."}, {"Id": 4,"Question": "Q.Correct statement about C# code is?
+
+ public class maths
+ {
+     public int x;
+     public virtual void a()
+     {
+ 
+     }
+ 
+ }
+ public class subject : maths
+ {
+     new public void a()
+     {
+ 
+     }
+ 
+ }
+","OptionA": "a) The subject class version of a() method gets called using sample class reference which holds subject class object
+","OptionB": "b) subject class hides a() method of base class
+","OptionC": "c) The code replaces the subject class version of a() with its math class version
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: d
+Explanation: None."}, {"Id": 5,"Question": "Q.Which of the following statements is correct?
+","OptionA": "a) Each derived class does not have its own version of a virtual method
+","OptionB": "b) If a derived class does not have its own version of virtual method then one in base class is used
+","OptionC": "c) By default methods are virtual
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: c
+Explanation: None."}, {"Id": 6,"Question": "Q.Correct code to be added for overloaded operator – for C# .net code given below is?
+
+ class csharp
+ {
+     int x, y, z;
+     public csharp()
+     {
+ 
+     }
+     public csharp(int a ,int b ,int c)
+     {
+         x = a;
+         y = b;
+         z = c;
+     }
+     Add correct set of code here
+    public void display()
+    {
+        console.writeline(x + \"  \" + y + \"  \" + z);
+    }
+    class program
+    {
+        static void Main(String[] args)
+        {
+            csharp s1 = new csharp(5 ,6 ,8);
+            csharp s3 = new csharp();
+            s3 = - s1;
+            s3.display();
+        }
+    }
+}
+","OptionA": "a) public static csharp operator -(csharp s1)
+    {
+        csharp t = new csharp();
+        t.x = s1.x;
+        t.y = s1.y;
+        t.z = -s1.z;
+        return t;
+    }
+","OptionB": "b)
+
+ public static csharp operator -(csharp s1)
+    {
+        csharp t = new csharp();
+        t.x = s1.x;
+        t.y = s1.y;
+        t.z = s1.z;
+        return t;
+    }
+","OptionC": "c)
+
+public static csharp operator -(csharp s1)
+    {
+        csharp t = new csharp();
+        t.x = -s1.x;
+        t.y = -s1.y;
+        t.z = -s1.z;
+        return t;
+    }
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: None."}, {"Id": 7,"Question": "Q.Selecting appropriate method out of number of overloaded methods by matching arguments in terms of number ,type and order and binding that selected method to object at compile time is called?
+","OptionA": "a) Static binding
+","OptionB": "b) Static Linking
+","OptionC": "c) Compile time polymorphism
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: d
+Explanation: None."}, {"Id": 8,"Question": "Q.Wrong statement about run time polymorphism is?
+","OptionA": "a) The overridden base method should be virtual,abstract or override
+","OptionB": "b) An abstract method is implicitly a virtual method
+","OptionC": "c) An abstract inherited property cannot be overridden in a derived class
+","OptionD": "d) Both override method and virtual method must have same access level modifier
+","Answer": "Answer: c
+Explanation: None."}, {"Id": 9,"Question": "Q.What is Recursion in CSharp defined as?
+
+","OptionA": "a) Recursion is another form of class
+","OptionB": "b) Recursion is another process of defining a method that calls other methods repeatedly
+","OptionC": "c) Recursion is a process of defining a method that calls itself repeatedly
+","OptionD": "d) Recursion is a process of defining a method that calls other methods which in turn calls this method
+","Answer": "Answer: c
+Explanation: Recursion is the process of defining something in terms of itself. It allows us to define method that calls itself repeatedly until it meets some base case condition."}, {"Id": 10,"Question": "Q.Correct statement about constructor overloading in C# is?
+","OptionA": "a) Overloaded constructors have the same name as the class
+","OptionB": "b) Overloaded constructors cannot use optional arguments
+","OptionC": "c) Overloaded constructors can have different type of number of arguments as well as differ in number of arguments
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: c
+Explanation: By definition of overloaded constructors."}]// qrce.numerical methods
+
+[{"Id": 1,"Question": "Q.In which of the following method, we approximate the curve of solution by the tangent in each interval?
+","OptionA": "a.
+Picard’s method
+","OptionB": "b.
+Euler’s method
+","OptionC": "c.
+Newton’s method
+","OptionD": "d.
+Runge Kutta method
+","Answer": "Answer: b
+Explanation: None
+"}, {"Id": 2,"Question": "Q.Jacobi\"s method is also #nown as
+","OptionA": "a.
+Displacement method
+","OptionB": "b.
+Simultaneous displacement method
+","OptionC": "c.
+Simultaneous method
+","OptionD": "d.
+Diagonal method
+","Answer": "Answer: b
+ Explanation: None
+"}, {"Id": 3,"Question": "Q.The number of significant digits in the number 204.020050 is
+","OptionA": "a.5
+","OptionB": "b.6
+","OptionC": "c.8
+","OptionD": "d.9
+","Answer": "Answer: d
+Explanation: None
+"}, {"Id": 4,"Question": "In general the ratio of truncation error to that of roundoff error is
+
+","OptionA": "a.2:1
+","OptionB": "b.1:1
+","OptionC": "c.1:2
+","OptionD": "d.1:3
+","Answer": "Answer: a
+Explanation: None"}, {"Id": 5,"Question": "Q.The convergence of which of the following method is sensitive to starting value:
+","OptionA": "a.False position
+","OptionB": "b.Gauss-seidal method
+","OptionC": "c.Newton-Raphson method
+","OptionD": "d.All of these
+","Answer": "Answer: c
+Explanation: None
+"}, {"Id": 6,"Question": "Q.To perform a Chi-square test
+","OptionA": "a.Data conform to a normal distribution
+","OptionB": "b.Data be measured on a nominal scale
+","OptionC": "c.Each cell has equal number of frequencies
+","OptionD": "d.All of these
+","Answer": "Answer: d
+Explanation: None
+"}, {"Id": 7,"Question": "Q.In the Gauss elimination method for solving a system of linear algebraic equations, triangularization leads to
+","OptionA": "a.Diagonal matrix
+","OptionB": "b.Lower triangular matrix
+","OptionC": "c.Upper triangular matrix
+","OptionD": "d.Singular matrix
+","Answer": "Answer: c
+Explanation: None
+"}, {"Id": 8,"Question": "Q.Match the following:
+
+A. Newton-Raphson      1. Integration
+
+B. Runge-kutta            2. Root finding
+
+C. Gauss-seidel           3. Ordinary Differential Equations
+
+D. Simpson’s Rule       4. Solution of system of Linear Equations
+
+The correct sequence is
+
+
+","OptionA": "a.A2-B3-C4-D1
+","OptionB": "b.A3-B2-C1-D4
+","OptionC": "c.A1-B4-C2-D3
+","OptionD": "d.A4-B1-C2-D3
+","Answer": "Answer: a
+Explanation: None
+"}, {"Id": 9,"Question": "Q.Order of convergence of Regula-Falsi method is
+
+","OptionA": "a.1.321
+","OptionB": "b.1.618
+","OptionC": "c.2.231
+","OptionD": "d.2.312
+","Answer": "Answer: b 
+Explanation: None
+"}, {"Id": 10,"Question": "Q.The expected value of the random variable
+
+","OptionA": "a.Will also be the most likely value of the random variable
+","OptionB": "b.Is another term for the mean value
+","OptionC": "c.Is also called the variance
+","OptionD": "d.Cannot be greater than 1
+","Answer": "Answer: b
+Explanation: None
+"}]// qrce.object oriented programming in c++
+
+[{"Id": 1,"Question": "Q.In C++ a name that is assigned by a user for a program elements such as variable, type, class, function or namespaces is called
+
+","OptionA": "A.Operators
+","OptionB": "B.Identifiers
+","OptionC": "C.Literals
+","OptionD": "D.All of them","Answer": "Option B.
+No explanation available."}, {"Id": 2,"Question": "Q.Unsigned integers in C++ are
+
+","OptionA": "A.Negative numbers
+","OptionB": "B.Non-negative numbers
+","OptionC": "C.Float numbers
+","OptionD": "D.None of them","Answer": "Option B."}, {"Id": 3,"Question": "Q.Which among the following best describes the Inheritance?
+","OptionA": "A. Copying the code already written
+","OptionB": "B. Using the code already written once
+","OptionC": "C. Using already defined functions in programming language
+","OptionD": "D. Using the data and functions into derived segment","Answer": "Option D.
+Explanation:
+It can only be indicated by using the data and functions that we use in derived class, being provided by parent class. Copying code is nowhere similar to this concept, also using the code already written is same as copying. Using already defined functions is not inheritance as we are not adding any of our own features."}, {"Id": 4,"Question": "Q. How many basic types of inheritance are provided as OOP feature?
+","OptionA": "A. 4
+","OptionB": "B. 3
+","OptionC": "C. 2
+","OptionD": "D. 1","Answer": "Option A.
+Explanation: 
+There are basically 4 types of inheritance provided in OOP, namely, single level,multilevel, multiple and hierarchical inheritance. We can add one more type as Hybrid inheritance but that is actually the combination any types of inheritance from the 4 basic ones."}, {"Id": 5,"Question": "Q.Which type of inheritance leads to diamond problem?
+","OptionA": "A. Single level
+","OptionB": "B. Multi-level
+","OptionC": "C. Multiple
+","OptionD": "D. Hierarchical","Answer": "Option C.
+Explanation: 
+When 2 or more classes inherit the same class using multiple inheritance and then one more class inherits those two base classes, we get a diamond like structure. Here, ambiguity arises when same function gets derived into 2 base classes and finally to 3rd level class, because same name functions are being inherited."}, {"Id": 6,"Question": "Q.Which among the following best describes encapsulation?
+","OptionA": "A. It is a way of combining various data members into a single unit
+","OptionB": "B. It is a way of combining various member functions into a single unit
+","OptionC": "C. It is a way of combining various data members and member functions into a single unit which can operate on any data
+","OptionD": "D. It is a way of combining various data members and member functions that operate on those data members into a single unit
+
+","Answer": "Option D.
+Explanation: It is a way of combining both data members and member functions, which operate on those data members, into a single unit. We call it a class in OOP generally. This feature have helped us modify the structures used in C language to be upgraded into class in C++ and other languages."}, {"Id": 7,"Question": "Q. Which feature can be implemented using encapsulation?
+","OptionA": "A. Inheritance
+","OptionB": "B. Abstraction
+","OptionC": "C. Polymorphism
+","OptionD": "D. Overloading
+","Answer": "Option B
+Explanation: Data abstraction can be achieved by using encapsulation. We can hide the operation and structure of actual program from the user and can show only required information by the user."}, {"Id": 8,"Question": "Q.Find which of the following uses encapsulation?
+","OptionA": "A. void main(){ int a; void fun( int a=10; cout<<a); fun(); }
+","OptionB": "B. class student{ int a; public: int b;};
+","OptionC": "C. class student{int a; public: void disp(){ cout<<a;} };
+","OptionD": "D. struct topper{ char name[10]; public : int marks; }
+","Answer": "Option C
+Explanation: It is the class which uses both the data members and member functions being declared inside a single unit. Only data members can be there in structures also. And the encapsulation can only be illustrated if some data/operations are associated within class."}, {"Id": 9,"Question": "Q.Which among the following should be encapsulated?
+","OptionA": "A. The data which is prone to change is near future
+","OptionB": "B. The data prone to change in long terms
+","OptionC": "C. The data which is intended to be changed
+","OptionD": "D. The data which belongs to some other class
+
+","Answer": "Option A
+Explanation: The data prone to change in near future is usually encapsulated so that it doesn’t get changed accidentally. We encapsulate the data to hide the critical working of program from outside world."}, {"Id": 10,"Question": "Q.How can Encapsulation be achieved?
+
+","OptionA": "A. Using Access Specifiers
+","OptionB": "B. Using only private members
+","OptionC": "C. Using inheritance
+","OptionD": "D. Using Abstraction
+
+
+","Answer": "Option A.
+Explanation: Using access specifiers we can achieve encapsulation. Using this we can in turn implement data abstraction. It’s not necessary that we only use private access."}, {"Id": 11,"Question": "Q.Which among the following violates the principle of encapsulation almost always?","OptionA": "A. Local variables
+","OptionB": "B. Global variables
+","OptionC": "C. Public variables
+","OptionD": "D. Array variables
+","Answer": "Option B.
+Explanation: Global variables almost always violates the principles of encapsulation. Encapsulation says the data should be accessed only by required set of elements. But global variable is accessible everywhere, also it is most prone to changes. It doesn’t hide the internal working of program."}, {"Id": 12,"Question": "Q.Which among the following best describes polymorphism?
+","OptionA": "A. It is the ability for a message/data to be processed in more than one form
+","OptionB": "B. It is the ability for a message/data to be processed in only 1 form
+","OptionC": "C. It is the ability for many messages/data to be processed in one way
+","OptionD": "D. It is the ability for undefined message/data to be processed in at least one way
+","Answer": "Option A
+Explanation: It is actually the ability for a message / data to be processed in more than one form. The word polymorphism indicates many-forms. So if a single entity takes more than one form, it is known as polymorphism.
+"}, {"Id": 13,"Question": "Q. Which type of function among the following shows polymorphism?
+","OptionA": "A. Inline function
+","OptionB": "B. Virtual function
+","OptionC": "C. Undefined functions
+","OptionD": "D. Class member functions
+","Answer": "Option B
+Explanation: Only virtual functions among these can show polymorphism. Class member functions can show polymorphism too but we should be sure that the same function is being overloaded or is a function of abstract class or something like this, since we are not sure about all these, we can’t say whether it can show polymorphism or not.
+"}, {"Id": 14,"Question": "Q.In case of using abstract class or function overloading, which function is supposed to be called first?
+","OptionA": "A. Local function
+
+","OptionB": "B. Function with highest priority in compiler
+","OptionC": "C. Global function
+","OptionD": "D. Function with lowest priority because it might have been halted since long time, because of low priority
+","Answer": "Option B.
+Explanation: Function with highest priority is called. Here, it’s not about the thread scheduling in CPU, but it focuses on whether the function in local scope is present or not, or if scope resolution is used in some way, or if the function matches the argument signature. So all these things define which function has the highest priority to be called in runtime. Local function could be one of the answer but we can’t say if someone have used pointer to another function or same function name."}]// qrce.object oriented software engineering
+
+[{"Id": 1,"Question": "Q.Choose the incorrect statement in terms of Objects.
+","OptionA": "a) Objects are abstractions of real-world
+","OptionB": "b) Objects can’t manage themselves
+","OptionC": "c) Objects encapsulate state and representation information
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: b
+Explanation: Objects are independent."}, {"Id": 2,"Question": "Q.Which of the following is a mechanism that allows several objects in an class hierarchy to have different methods with the same name?
+","OptionA": "a) Aggregation
+","OptionB": "b) Polymorphism
+","OptionC": "c) Inheritance
+","OptionD": "d) All of the mentioned
+","Answer": "Answer: b
+Explanation: In polymorphism instances of each subclass will be free to respond to messages by calling their own version of the method.
+"}, {"Id": 3,"Question": "Q.Which of the following points related to Object-oriented development (OOD) is true?
+","OptionA": "a) OOA is concerned with developing an object model of the application domain
+","OptionB": "b) OOD is concerned with developing an object-oriented system model to implement requirements
+","OptionC": "c) All of the mentioned
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: c
+Explanation: The answer is in support with the OOD."}, {"Id": 4,"Question": "Q.How is generalization implemented in Object Oriented programming languages?
+","OptionA": "a) Inheritance
+","OptionB": "b) Polymorphism
+","OptionC": "c) Encapsulation
+","OptionD": "d) Abstract Classes
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 5,"Question": "Q.Which of the following is a disadvantage of OOD ?
+","OptionA": "a) Easier maintenance
+","OptionB": "b) Objects may be understood as stand-alone entities
+","OptionC": "c) Objects are potentially reusable components
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: d
+Explanation: All the options define the characteristics of OOD."}, {"Id": 6,"Question": "Q.Object that collects data on request rather than autonomously is known as
+","OptionA": "a) Active Object
+","OptionB": "b) Passive Object
+","OptionC": "c) Multiple instance
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: b
+Explanation: A passive object holds data, but does not initiate control."}, {"Id": 7,"Question": "Q.Objects are executed
+","OptionA": "a) sequentially
+","OptionB": "b) in Parallel
+","OptionC": "c) sequentially & Parallel
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: c
+Explanation: Objects may be distributed and may execute sequentially or in parallel.
+"}, {"Id": 8,"Question": "Q.Risk management is one of the most important jobs for a
+","OptionA": "a) Client
+","OptionB": "b) Investor
+","OptionC": "c) Production team
+","OptionD": "d) Project manager
+","Answer": "Answer: d
+Explanation: Risk management involves anticipating risks that might affect the project schedule or the quality of the software being developed, and then taking action to avoid these risks.
+"}, {"Id": 9,"Question": "Q.Which of the following risk is the failure of a purchased component to perform as expected?
+","OptionA": "a) Product risk
+","OptionB": "b) Project risk
+","OptionC": "c) Business risk
+","OptionD": "d) Programming risk
+","Answer": "Answer: a
+Explanation: Risks that affect the quality or performance of the software being developed."}, {"Id": 10,"Question": "Q.Which of the following term is best defined by the statement: “The underlying technology on which the system is built is superseded by new technology.”?
+","OptionA": "a) Technology change
+","OptionB": "b) Product competition
+","OptionC": "c) Requirements change
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: a
+Explanation: Technology changes are common in the competitive environment of software engineering."}]// qrce.operating_system
+
+[{"Id": 1,"Question": "Q.In internal fragmentation, memory is internal to a partition and :
+","OptionA": "a) is being used
+","OptionB": "b) is not being used
+","OptionC": "c) is always used
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: b
+Explanation: None."}, {"Id": 2,"Question": "Q.A solution to the problem of external fragmentation is :
+","OptionA": "a) compaction
+","OptionB": "b) larger memory space
+","OptionC": "c) smaller memory space
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 3,"Question": "Q.Another solution to the problem of external fragmentation problem is to :
+","OptionA": "a) permit the logical address space of a process to be noncontiguous
+","OptionB": "b) permit smaller processes to be allocated memory at last
+","OptionC": "c) permit larger processes to be allocated memory at last
+","OptionD": "d) all of the mentioned
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 4,"Question": "Q.If relocation is static and is done at assembly or load time, compaction _________
+","OptionA": "a) cannot be done
+","OptionB": "b) must be done
+","OptionC": "c) must not be done
+","OptionD": "d) can be done
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 5,"Question": "Q.he disadvantage of moving all process to one end of memory and all holes to the other direction, producing one large hole of available memory is :
+","OptionA": "a) the cost incurred
+","OptionB": "b) the memory used
+","OptionC": "c) the CPU used
+","OptionD": "d) all of the mentioned
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 6,"Question": "Q.CPU fetches the instruction from memory according to the value of
+","OptionA": "a) program counter
+","OptionB": "b) status register
+","OptionC": "c) instruction register
+","OptionD": "d) program status word
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 7,"Question": "Q.A memory buffer used to accommodate a speed differential is called
+","OptionA": "a) stack pointer
+","OptionB": "b) cache
+","OptionC": "c) accumulator
+","OptionD": "d) disk buffer
+","Answer": "Answer: b
+Explanation: None."}, {"Id": 8,"Question": "Q.Which one of the following is the address generated by CPU?
+","OptionA": "a) physical address
+","OptionB": "b) absolute address
+","OptionC": "c) logical address
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: c
+Explanation: None."}, {"Id": 9,"Question": "Q.Run time mapping from virtual to physical address is done by
+","OptionA": "a) Memory management unit
+","OptionB": "b) CPU
+","OptionC": "c) PCI
+","OptionD": "d) None of the mentioned
+","Answer": "Answer: a
+Explanation: None."}, {"Id": 10,"Question": "Q.For real time operating systems, interrupt latency should be
+","OptionA": "a) minimal
+","OptionB": "b) maximum
+","OptionC": "c) zero
+","OptionD": "d) dependent on the scheduling
+","Answer": "Answer: a
+Explanation: Interrupt latency is the time duration between the generation of interrupt and execution of its service."}]// qrce.programming in c
+
+[{"id": 1,"Question": "Q. Which of the following statements should be used to obtain a remainder after dividing 3.14 by 2.1 ?","OptionA": "A. rem = 3.14 % 2.1;","OptionB": "B. rem = modf(3.14, 2.1);
+","OptionC": "C.rem = fmod(3.14, 2.1);
+","OptionD": "D. Remainder cannot be obtain in floating point division.","Answer": "Option C.
+Explanation:
+fmod(x,y) - Calculates x modulo y, the remainder of x/y. 
+This function is the same as the modulus operator. But fmod() performs floating point divisions."}, {"id": 2,"Question": "Q. What are the types of linkages?
+
+","OptionA": "A.Internal and External
+","OptionB": "B.External, Internal and None
+","OptionC": "C.External and None
+","OptionD": "D.Internal","Answer": "Option B.
+Explanation:
+External Linkage-> means global, non-static variables and functions.
+Internal Linkage-> means static variables and functions with file scope.
+None Linkage-> means Local variables."}, {"id": 3,"Question": "Q. The correct order of mathematical operators in mathematics and computer programming,","OptionA": "A. Addition, Subtraction, Multiplication, Division
+
+","OptionB": "B - Division, Multiplication, Addition, Subtraction
+
+","OptionC": "C - Multiplication, Addition, Division, Subtraction
+
+","OptionD": "D - Mathematical operators can be done in any order","Answer": "Option B.
+Explanation:
+It is BODMAS."}, {"id": 4,"Question": "Q. The keyword used to transfer control from a function back to the calling function is
+
+","OptionA": "A.switch
+","OptionB": "B.goto
+","OptionC": "C.go back
+","OptionD": "Dreturn","Answer": "Option D.
+Explanation: 
+The keyword return is used to transfer control from a function back to the calling function."}, {"id": 5,"Question": "Q. What is (void*)0?
+
+","OptionA": "A.Representation of NULL pointer
+","OptionB": "B.Representation of void pointer
+","OptionC": "C.Error
+","OptionD": "D.None of above","Answer": "Option A
+No explanation available"}, {"id": 6,"Question": "Q. The ‘C’ language is
+","OptionA": "a.Context free language
+","OptionB": "B.Context sensitive language
+","OptionC": "C.Regular language
+","OptionD": "D.None of the above","Answer": "Option A."}, {"id": 7,"Question": "Q. Enumeration is a process of
+","OptionA": "A.Declaring a set of numbers
+","OptionB": "B. Sorting a list of strings
+","OptionC": "C. Assigning a legal values possible for a variable
+","OptionD": "D. Sequencing a list of operators","Answer": "Option C."}, {"id": 8,"Question": "Q.When a programming Language has the capacity to produce new datatype, it is called as,
+","OptionA": "A.Overloaded Language
+","OptionB": "B.Extensible Language
+","OptionC": "C.Encapsulated Language
+","OptionD": "D.Abstraction Language","Answer": "Option B."}, {"id": 9,"Question": "Q.The Default Parameter Passing Mechanism is called as
+","OptionA": "A.Call by Value
+","OptionB": "B.Call by Reference
+","OptionC": "C.Call by Address
+","OptionD": "D.Call by Name","Answer": "Option A."}, {"id": 10,"Question": "Q.Functions defined with class name are called as
+","OptionA": "A.Inline function
+","OptionB": "B.Friend function
+","OptionC": "C.Constructor
+","OptionD": "D.Static function","Answer": "Option C."}, {"id": 11,"Question": "Q.Which of the following has, compilation error in C ?
+","OptionA": "A.int n = 32 ;
+","OptionB": "B.char ch = 65 ;
+","OptionC": "C.float f= (float) 3.2 ;
+","OptionD": "D.none of the above","Answer": "Option D."}, {"id": 12,"Question": "Q.What will be the output of the following \'C\' code?
+main ( )
+{        int x = 128;
+          printf(\"\\n%d”, 1 + x ++);
+}
+","OptionA": "A.128
+","OptionB": "B.129","OptionC": "C.130","OptionD": "D.131","Answer": "Option B."}, {"id": 13,"Question": "Q.The goal of operator overloading is
+","OptionA": "A.to help the user of a class
+","OptionB": "B.to help the developer of a class
+","OptionC": "C.to help define friend function
+","OptionD": "D.None of the above","Answer": "Option A."}, {"id": 14,"Question": "Q.The data type created by the data abstraction process is called:	
+","OptionA": "A.class
+","OptionB": "B.structure
+","OptionC": "C.abstract data type
+","OptionD": "D.user defined data type","Answer": "Option C."}, {"id": 15,"Question": "Q.The friend functions are used in situations where:
+","OptionA": "A.We want to have access to unrelated classes
+","OptionB": "B.Dynamic binding is required
+","OptionC": "C.Exchange of data between classes to take place
+","OptionD": "D.None of the above","Answer": "Option C."}]// qrce.simulation and modeling
+
+[{"id": 1,"Question": "Q.Simulator converts circuit information to
+","OptionA": "a) design plan
+","OptionB": "b) does verification
+","OptionC": "c) set of equations
+","OptionD": "d) floor plan
+","Answer": "Answer: c
+Explanation: The circuit description contains information about circuit components and interconnections. This is transformed using simulator to a set of equations from which predictions of behaviour are made.
+"}, {"id": 2,"Question": "Q.The electrical behaviour of a circuit is given using
+","OptionA": "a) design rules
+","OptionB": "b) floor plan
+","OptionC": "c) structures and layouts
+","OptionD": "d) mathematical modelling
+","Answer": "Answer: d
+Explanation: The electrical behaviour is defined by mathematical modelling and its accuracy is measured using accuracy of simulation and computing power and time for simulation.
+"}, {"id": 3,"Question": "Q.Which gives the main electrical behaviour of various parts of circuit?
+","OptionA": "a) circuit simulator
+","OptionB": "b) timing simulator
+","OptionC": "c) logic level simulator
+","OptionD": "d) functional simulator
+","Answer": "Answer: a
+Explanation: Circuit simulators are concerned with the electrical behaviour of the various parts of the circuit to be implemented in silicon."}, {"id": 4,"Question": "Q.Which takes lots of simulating time?
+","OptionA": "a) circuit simulator
+","OptionB": "b) timing simulator
+","OptionC": "c) logic level simulator
+","OptionD": "d) functional simulator
+","Answer": "Answer: a
+Explanation: Circuit simulators takes lot of computing time to simulate even small section of system and are completely impractical for circuits of any real magnitude."}, {"id": 5,"Question": "Q.Timing simulator concentrates on
+","OptionA": "a) quiescent nodes
+","OptionB": "b) active nodes
+","OptionC": "c) passive nodes
+","OptionD": "d) electrical nodes
+","Answer": "Answer: b
+Explanation: Timing simulator concentrates on active nodes and ignores the quiescent nodes in simulation and improves the design accordingly."}, {"id": 6,"Question": "Q.The accuracy of simulation depends on accuracy of
+","OptionA": "a) fabrication house parameters
+","OptionB": "b) electrical parameters
+","OptionC": "c) active parameters
+","OptionD": "d) functional parameters
+","Answer": "Answer: a
+Explanation: The accuracy of simulation depends on accuracy of fabrication house parameters which must be fed into the simulator which is in the range of 20% or better."}, {"id": 7,"Question": "Q.Which is important during the design phase?
+","OptionA": "a) circuit simulator
+","OptionB": "b) timing simulator
+","OptionC": "c) logic level simulator
+","OptionD": "d) functional simulator
+","Answer": "Answer: b
+Explanation: Timing simulators are increasingly important during the design phase because of their speed and consequent interactive qualities."}, {"id": 8,"Question": "Q.Improvement of transistor modelling includes
+","OptionA": "a) body effect
+","OptionB": "b) channel length modulation
+","OptionC": "c) carrier velocity saturation
+","OptionD": "d) all of the mentioned
+","Answer": "Answer: d
+Explanation: To improve the transistor modelling it is possible to include body effect, channel length modulation and carrier velocity saturation.
+"}, {"id": 9,"Question": "Q.Channel length modulation is for voltages
+","OptionA": "a) exceeding threshold
+","OptionB": "b) exceeding onset of saturation
+
+","OptionC": "c) exceeding power supply
+","OptionD": "d) exceeding onset of non saturation
+","Answer": "Answer: b
+Explanation: Channel length modulation is for voltages exceeding the onset of saturation there is an effective decrease in channel lengthof a short channel transistor."}, {"id": 10,"Question": "Q.Less current is available from
+","OptionA": "a) short channel transistor
+","OptionB": "b) large channel transistor
+","OptionC": "c) very large channel transistor
+","OptionD": "d) does not depend on channel transistor
+","Answer": "Answer: a
+Explanation: Less current is available from a short channel transistor than from a long channel transistor with similar width to length ratio and processing."}]// qrce.social and professional issues in it
+
+[{"Id": 1,"Question": "Q.Which of these is the external sounds present in the channels of communication?
+","OptionA": "a) Noise
+","OptionB": "b) Semantic problems
+","OptionC": "c) Cultural barriers
+","OptionD": "d) Over communication
+","Answer": "Answer: a
+Explanation: Noise is the external sounds present in the channels of communication, which results in the reduction of the audibility or omission of some words from the message.
+"}, {"Id": 2,"Question": "Q.Which of these should not be avoided for effective communication?
+
+","OptionA": "a) Noise
+","OptionB": "b) Planning
+","OptionC": "c) Semantic problems
+","OptionD": "d) Wrong assumptions
+","Answer": "Answer: b
+Explanation: Lack of planning must be avoided for effects communication. There are innumerable examples of people who would give an ill planned, long winding lecture while a short presentation with tables or graphs would be sufficient."}, {"Id": 3,"Question": "Q.In which of these problems, the actual message is lost in the jungle of information?
+","OptionA": "a) Selecting perception
+","OptionB": "b) Over communication
+","OptionC": "c) Under communication
+","OptionD": "d) Filtering
+","Answer": "Answer: b
+Explanation: In the case of over communication, the actual message is lost in the jungle of information whereas in under communication the sender is blamed for sharing less information.
+"}, {"Id": 4,"Question": "Q. _______ means to impart understanding of the message.
+","OptionA": "a) Encoding
+","OptionB": "b) Receiver
+","OptionC": "c) Decoding
+","OptionD": "d) Feedback
+","Answer": "Answer: c
+Explanation: The correct statement is: Decoding means to impart understanding of the message. Receiver has to identify the person, words symbols, etc.."}, {"Id": 5,"Question": "Q.When is the communication process complete?
+","OptionA": "a) When the sender transmits the message
+","OptionB": "b) When the message enters the channel
+","OptionC": "c) When the message leaves the channel
+","OptionD": "d) When the receiver understands the message.
+","Answer": "Answer: d
+Explanation: Communication is complete only when the receiver understands the message. Many communication problems arise because of misunderstandings."}, {"Id": 6,"Question": "Q.Which of these must be avoided for effective communication?
+","OptionA": "a) Sharing of activity
+","OptionB": "b) Listening
+","OptionC": "c) Ambiguity
+","OptionD": "d) Politeness
+","Answer": "Answer: c
+Explanation: The sender of the message should be careful to see that the receiver does not have to go beyond the text of the message. Ambiguities must be avoided."}, {"Id": 7,"Question": "Q.Which of these is not a commandment of effective communication?
+","OptionA": "a) Clarity in language
+","OptionB": "b) Listen poorly
+","OptionC": "c) Home communication skills
+","OptionD": "d) Adequate medium
+","Answer": "Answer: b
+Explanation: In order to ensure an effective communication one must take care of ten commandments: Clarity in language, home communication skills, listen attentively, etc..
+"}, {"Id": 8,"Question": "Q.What is internet?
+","OptionA": "a) a single network
+","OptionB": "b) a vast collection of different networks
+","OptionC": "c) interconnection of local area networks
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: b
+Explanation: None."}, {"Id": 9,"Question": "Q.Internet access by transmitting digital data over the wires of a local telephone network is provided by
+","OptionA": "a) leased line
+","OptionB": "b) digital subscriber line
+","OptionC": "c) digital signal line
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: b
+Explanation: None."}, {"Id": 10,"Question": "Q.ISP exchanges internet traffic between their networks by
+","OptionA": "a) internet exchange point
+","OptionB": "b) subscriber end point
+","OptionC": "c) isp end point
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: a
+Explanation: None."}]// qrce.theory of computation
+
+[{"Id": 1,"Question": "Q.How many strings of length less than 4 contains the language described by the regular expression (x+y)*y(a+ab)*?
+","OptionA": "a) 7
+","OptionB": "b) 10
+","OptionC": "c) 12
+","OptionD": "d) 11
+","Answer": "Answer : d
+Explanation : string of length 0 = 1
+string of length 1 = 4
+string of length 2 = 3
+string of length 3 = 3"}, {"Id": 2,"Question": "Q.Which of the following is true?
+","OptionA": "a) (01)*0 = 0(10)*
+","OptionB": "b) (0+1)*0(0+1)*1(0+1) = (0+1)*01(0+1)*
+","OptionC": "c) (0+1)*01(0+1)*+1*0* = (0+1)*
+","OptionD": "d) All of the mentioned
+","Answer": "Answer : d
+Explanation : None."}, {"Id": 3,"Question": "Q.A language is regular if and only if
+","OptionA": "a) accepted by DFA
+","OptionB": "b) accepted by PDA
+","OptionC": "c) accepted by LBA
+","OptionD": "d) accepted by Turing machine
+","Answer": "Answer : a
+Explanation : All of above machine can accept regular language but all string accepted by machine is regular only for DFA."}, {"Id": 4,"Question": "Q.Regular grammar is
+","OptionA": "a) context free grammar
+","OptionB": "b) non context free grammar
+","OptionC": "c) english grammar
+","OptionD": "d) none of the mentioned
+","Answer": "Answer : a
+Explanation : Regular grammar is subset of context free grammar."}, {"Id": 5,"Question": "Q.Let the class of language accepted by finite state machine be L1 and the class of languages represented by regular expressions be L2 then
+","OptionA": "a) L1<L2
+","OptionB": "b) L1>=L2
+","OptionC": "c) L1 U L2 = .*
+","OptionD": "d) L1=L2
+","Answer": "Answer : d
+Explanation : Finite state machine and regular expression have same power to express a language."}, {"Id": 6,"Question": "Q.Which of the following is not a regular expression?
+","OptionA": "a) [(a+b)*-(aa+bb)]*
+","OptionB": "b) [(0+1)-(0b+a1)*(a+b)]*
+","OptionC": "c) (01+11+10)*
+","OptionD": "d) (1+2+0)*(1+2)*
+","Answer": "Answer : b
+Explanation : Except b all are regular expression*."}, {"Id": 7,"Question": "Q.Regular expression are
+","OptionA": "a) Type 0 language
+","OptionB": "b) Type 1 language
+","OptionC": "c) Type 2 language
+","OptionD": "d) Type 3 language
+","Answer": "Answer : a
+Explanation : According to Chomsky hierarchy ."}, {"Id": 8,"Question": "Q.L and ~L are recursive enumerable then L is
+","OptionA": "a) Regular
+","OptionB": "b) Context free
+","OptionC": "c) Context sensitive
+","OptionD": "d) Recursive
+","Answer": "Answer : d
+Explanation :If L is recursive enumerable and its complement too if and only if L is recursive."}, {"Id": 9,"Question": "Q.Regular expressions are closed under
+","OptionA": "a) Union
+","OptionB": "b) Intersection
+","OptionC": "c) Kleen star
+","OptionD": "d) All of the mentioned
+","Answer": "nswer : d
+Explanation : According to definition of regular expression."}, {"Id": 10,"Question": "Q.A PDA machine configuration (p, w, y) can be correctly represented as:
+","OptionA": "a) (current state, unprocessed input, stack content)
+","OptionB": "b) (unprocessed input, stack content, current state)
+","OptionC": "c) (current state, stack content, unprocessed input)
+","OptionD": "d) none of the mentioned
+","Answer": "Answer: a
+Explanation: A machine configuration is an element of K×S*×G*.
+(p,w,?) = (current state, unprocessed input, stack content)."}]
