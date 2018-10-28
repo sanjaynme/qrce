@@ -8,12 +8,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="np.edu.nast.demoapp.qrce.activities.Result">
+    tools:context="np.edu.nast.demoapp.qrce.activities.ResultActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Statistics"
+        android:text="@string/result"
         android:textAlignment="center"
         android:textSize="48sp" />
 

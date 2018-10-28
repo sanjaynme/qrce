@@ -3,6 +3,19 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_ntc"
+            android:icon="@mipmap/ic_ntc_foreground"
+            android:title="@string/nav_ntc" />
+        <item
+            android:id="@+id/nav_nea"
+            android:icon="@mipmap/ic_nea_foreground"
+            android:title="@string/nav_nea" />
+
+        <item
+            android:id="@+id/nav_loksewa"
+            android:icon="@mipmap/ic_loksewa_foreground"
+            android:title="@string/nav_loksewa" />
+        <item
             android:id="@+id/nav_scorecard"
             android:icon="@drawable/scorecard_drwaer"
             android:title="Scorecard" />
@@ -17,19 +30,19 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/share_drawer"
-                android:title="Share" />
+                android:title="@string/nav_share" />
             <item
                 android:id="@+id/nav_feedback"
                 android:icon="@drawable/feedback_drawer"
-                android:title="Feedback" />
+                android:title="@string/nav_feedback" />
             <item
                 android:id="@+id/nav_Help"
                 android:icon="@drawable/help_drawer"
-                android:title="Help" />
+                android:title="@string/nav_help" />
             <item
                 android:id="@+id/nav_aboutus"
                 android:icon="@drawable/about_us_drawer"
-                android:title="Visit Developer" />
+                android:title="@string/title_activity_about_us" />
         </menu>
     </item>
 

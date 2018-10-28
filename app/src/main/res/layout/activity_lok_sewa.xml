@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LokSewaActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_sample_questions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:contentDescription="@string/nav_loksewa"
+                android:scrollbars="vertical"
+                android:src="@drawable/loksewa_firstpaper1"
+                android:visibility="invisible" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+        <!--<include-->
+        <!--android:id="@+id/header"-->
+        <!--layout="@layout/layout_header"/>-->
+        <include
+            layout="@layout/layout_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_layout_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/btn_test_loksewa"
+                android:layout_width="@dimen/dimen_150dp"
+                android:layout_height="@dimen/dimen_50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_50dp"
+                android:background="@drawable/rounded_corners"
+                android:text="@string/test"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_sample_questions"
+                android:layout_width="@dimen/dimen_150dp"
+                android:layout_height="@dimen/dimen_50dp"
+                android:layout_below="@+id/btn_test_loksewa"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dimen_50dp"
+                android:background="@drawable/rounded_corners"
+                android:text="@string/sample_questions"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_syllabus"
+                android:layout_width="@dimen/dimen_150dp"
+                android:layout_height="@dimen/dimen_50dp"
+                android:layout_below="@+id/btn_sample_questions"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dimen_50dp"
+                android:layout_marginTop="@dimen/dimen_50dp"
+                android:background="@drawable/rounded_corners"
+                android:text="@string/syllabus"
+                android:textAlignment="center" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

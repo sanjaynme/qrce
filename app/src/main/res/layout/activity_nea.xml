@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nea_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NEAActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!--<include-->
+        <!--android:id="@+id/header"-->
+        <!--layout="@layout/layout_header" />-->
+    <include
+        android:id="@+id/footer"
+        layout="@layout/layout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:id="@+id/btn_test_loksewa"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:background="@drawable/rounded_corners"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/test"/>
+        <Button
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:id="@+id/btn_sample_questions"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_below="@+id/btn_test_loksewa"
+            android:background="@drawable/rounded_corners"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sample_questions" />
+        <Button
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:id="@+id/btn_syllabus"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_below="@+id/btn_sample_questions"
+            android:background="@drawable/rounded_corners"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="@string/syllabus"
+            android:layout_marginBottom="@dimen/dimen_50dp"/>
+    </RelativeLayout>
+</RelativeLayout>

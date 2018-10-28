@@ -10,9 +10,7 @@ import java.util.ArrayList;
 
 import np.edu.nast.demoapp.qrce.model.QuestionModel;
 
-/**
- * Created by Vikesh PC on 08-04-2016.
- */
+
 public class CGDbHelper extends SQLiteOpenHelper {
 
     private static final String Database_path = "/data/data/np.edu.nast.demoapp.qrce/databases/";

@@ -107,8 +107,12 @@ public class QuestionsActivity extends AppCompatActivity {
                     toast.cancel();
                     SharedPreferences.Editor editor = shared.edit();//here we are saving the data when the countdown timer will finish and it is saved in shared prefrence file that is defined in onCreate method as score
                     editor.putInt("Questions", k).commit();
-                    if (get.equals("oS") && shared.getInt("oS", 0) < l)
-                        editor.putInt("oS", l * 10).apply();
+                    if (get.equals("os") && shared.getInt("os", 0) < l)
+                        editor.putInt("os", l * 10).apply();
+                    else if (get.equals("c1") && shared.getInt("CProgramming", 0) < l)
+                        editor.putInt("CProgramming", l * 10).apply();
+                    else if (get.equals("c2") && shared.getInt("BasicElectricalEngineering", 0) < l)
+                        editor.putInt("BasicElectricalEngineering", l * 10).apply();
                     else if (get.equals("java") && shared.getInt("java", 0) < l)
                         editor.putInt("java", l * 10).apply();
                     else if (get.equals("aI") && shared.getInt("aI", 0) < l)
@@ -177,7 +181,7 @@ public class QuestionsActivity extends AppCompatActivity {
             }
         }
 
-        if (get.equals("oS")) {
+        if (get.equals("os")) {
             osDbHelper = new OSDbHelper(this);
             ArrayList<QuestionModel> questionModels = osDbHelper.readSize();
 
@@ -203,7 +207,6 @@ public class QuestionsActivity extends AppCompatActivity {
                 finish();
             }
         } else if (get.equals("java")) {
-
 
             javaDbHelper = new JavaDbHelper(this);
             ArrayList<QuestionModel> questionModels = javaDbHelper.readSize();

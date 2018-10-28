@@ -16,8 +16,8 @@ import np.edu.nast.demoapp.qrce.model.QuestionModel;
 public class AIDbHelper extends SQLiteOpenHelper {
 
     private static final String Database_path = "/data/data/np.edu.nast.demoapp.qrce/databases/";
-    private static final String Database_name = "AI.db";//NAME of database stored in Assets folder
-    public static final String TABLE_NAME = "AI";//name of table
+    private static final String Database_name = "ai.db";//NAME of database stored in Assets folder
+    public static final String TABLE_NAME = "artificial_intelligence";//name of table
     public static final String _ID = "_id";//name of column1
     public static final String COLUMN_QUESTION = "Question";//name of column2
     public static final String COLUMN_OPTION_A = "OptionA";//name of column3

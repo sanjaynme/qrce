@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="np.edu.nast.demoapp.qrce.activities.Setting_activity">
+    android:background="@drawable/background"
+    tools:context="np.edu.nast.demoapp.qrce.activities.SettingActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -43,26 +44,26 @@
                 android:id="@+id/reset"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="?attr/selectableItemBackground"
-                android:text="Reset Highscore"
+                android:background="@drawable/rounded_corners"
+                android:text="@string/reset_high_score"
                 android:textAllCaps="false"
-                android:textColor="#1c1c1c"
-                android:textSize="18sp" />
+                android:textColor="#ffff"
+                android:textSize="@dimen/txt_18sp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#a3a3a3" />
+            android:layout_height="@dimen/dimen_3dp"
+            android:background="#a3a3a3"/>
 
 
             <Button
                 android:id="@+id/play_sound"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="?attr/selectableItemBackground"
+                android:background="@drawable/rounded_corners"
                 android:textAllCaps="false"
-                android:textColor="#1c1c1c"
-                android:textSize="18sp" />
+                android:textColor="#ffff"
+                android:textSize="@dimen/txt_18sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -74,4 +75,4 @@
 
 
 
-</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha=".90"
-    android:background="@drawable/background"
+    android:background="@drawable/background_heading"
     android:focusable="true"
     android:focusableInTouchMode="true"
     tools:context="np.edu.nast.demoapp.qrce.activities.MainActivity">
@@ -28,7 +28,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"
         android:maxLength="15"
-        android:text="Welcome !"
+        android:text="@string/welcome_back"
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="30sp" />

@@ -129,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-
         } else {
 
             setContentView(R.layout.activity_main_second);
@@ -139,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 icon_user.setImageResource(R.drawable.female);
             }
-
 
             name_display = findViewById(R.id.name_display);
             name_display.setText(name_file);

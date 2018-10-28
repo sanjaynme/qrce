@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">QRCE</string>
-    <string name="toast_message">"1.   Enter your name for the quiz.
+    <string name="toast_message">"1.   Enter your name for the app to use.
 
  2.   Enter your valid mail address.
         eg:   abc@xyz.com
@@ -16,18 +16,83 @@
 
     <string name="title_activity_navigation_activity">QRCE</string>
     <string name="title_activity_navigation_">Navigation_Activity</string>
-    <string name="title_activity_about_us">About me</string>
-    <string name="note">QRCE is a smart app which is designed with simple and optimized user interface. QRCE has all the categories of quiz question which are used in daily life.</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="note">QRCE is a smart app which is designed by\n
+       Suresh Pangeni\n
+       Suresh Upreti\n
+       Chandramani Bhandari\n
+       Chakra Bahadur Singh\n
+       Sunil KC\n
+       It has simple and optimized user interface.\n
+       QRCE has all the categories of question which are useful for Computer Engineering students and those who are preparing for Computer engineering post.</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_questions">Questions</string>
     <string name="title_activity_main3">Main3Activity</string>
-    <string name="title_activity_score_card">ScoreCard</string>
+    <string name="title_activity_score_card">Score Board</string>
     <string name="title_activity_setting_activity">Settings</string>
     <string name="email_content">Hey there! Take a look at the app developed by Suresh and the team.\n\nHere is the link to the app:\n\n </string>
-    <string name="link"><u>https://github.com/vikesh8860/QRCE-Apk-File</u></string>
-    <string name="last_content">\n\nSteps: click on quizbook.apk and then click on download.</string>
+    <string name="link"><u>https://github.com/spangeni44/QRCE-Apk-File</u></string>
+    <string name="last_content">\n\nSteps: click on qrce.apk and then click on download.</string>
     <string name="ai">Artificial Intelligence</string>
     <string name="os">Operating System</string>
     <string name="java">Java</string>
+    <string name="result">Result</string>
+    <string name="dsp">Digital Signal Processing</string>
+    <string name="nav_ntc">NTC</string>
+    <string name="nav_nea">NEA</string>
+    <string name="nav_loksewa">Loksewa</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_share">Share</string>
+    <string name="C_programming">C Programming</string>
+    <string name="sample_questions">Sample Questions</string>
+    <string name="test">Test</string>
+    <string name="exam_papers">Exam Papers</string>
+    <string name="QRCE_version_1">QRCE V1.0</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="header_view">Header View</string>
+    <string name="website">com.qrce.nast.qrce</string>
+    <string name="str_next">Confirm</string>
+    <string name="str_again">Play Again</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+    <string name="about_us_text"> This app is developed by: \n
+                    Suresh Pangeni \n
+                    Suresh Upreti \n
+                    Chandramani Bhandari \n
+                    Chakra Bahadur Singh \n
+                    Sunil KC \n
+                    Contact E-mail: qrce.nast.qrce.com \n
+                    Phone: +977-09100000 \n
+                    Address: Dhangadhi, Kailali,Farwest, Nepal \n
+    </string>
+    <string name="computer_networks">Computer Networks</string>
+    <string name="digital_signal_processing">Digital Signal Processing</string>
+    <string name="information_system">Information System</string>
+    <string name="social_and_professional_issues_in_it">Social and Professional Issues in IT</string>
+    <string name="basic_electrical_engineering">Basic Electrical Engineering</string>
+    <string name="cplus">C++</string>
+    <string name="dsa">Data Structures and Algorithms</string>
+    <string name="edc">Electronic Devices and Circuit</string>
+    <string name="logic_circuit">Logic Circuit</string>
+    <string name="dbms">Database Management System</string>
+    <string name="microprocessor">Microprocessor</string>
+    <string name="csharp">C#</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="computer_graphics">Computer Graphics</string>
+    <string name="toc">Theory of Computation</string>
+    <string name="numerical_methods">Numerical Methods</string>
+    <string name="oose">Object Oriented Software Engineering</string>
+    <string name="data_communication">Data Communication</string>
+    <string name="simulation_and_modeling">Simulation and Modeling</string>
+    <string name="embedded_system">Embedded System</string>
+    <string name="artificial_intelligence">Artificial Intelligence</string>
+    <string name="int_0">0</string>
+    <string name="suresh">Suresh</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="reset_high_score">Reset High Scores</string>
+    <string name="welcome_back">Welcome Back !</string>
 
 </resources>

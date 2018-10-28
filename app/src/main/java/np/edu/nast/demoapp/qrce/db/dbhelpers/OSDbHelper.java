@@ -17,7 +17,7 @@ public class OSDbHelper extends SQLiteOpenHelper {
 
     private static final String Database_path = "/data/data/np.edu.nast.demoapp.qrce/databases/";
     private static final String Database_name = "os.db";//NAME of database stored in Assets folder
-    public static final String TABLE_NAME = "os";//name of table
+    public static final String TABLE_NAME = "operating_system";//name of table
     public static final String _ID = "_id";//name of column1
     public static final String COLUMN_QUESTION = "Question";//name of column2
     public static final String COLUMN_OPTION_A = "OptionA";//name of column3
@@ -49,7 +49,7 @@ public class OSDbHelper extends SQLiteOpenHelper {
                 ")";
 
         db.execSQL(SQL_CREATE_QUESTIONS_TABLE);
-        Toast.makeText(context, "Table " + TABLE_NAME + " is created successfully. ", Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(context, "Table " + TABLE_NAME + " is created successfully. ", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -58,7 +58,6 @@ public class OSDbHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(db);
     }
-
 
     public String readQuestion(int i)//Used to read the data from the Des.db file where id is given and we choose id randomly
     {

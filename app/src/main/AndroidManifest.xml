@@ -72,6 +72,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.NavigationActivity" />
         </activity>
+        <activity android:name=".activities.NTCActivity"
+            android:label="@string/nav_ntc"/>
+        <activity android:name=".activities.NEAActivity"
+            android:label="@string/nav_nea"/>
+        <activity android:name=".activities.LokSewaActivity"
+            android:label="@string/nav_loksewa"/>
     </application>
 
 </manifest>
